@@ -1,0 +1,2679 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet href="ipcentry.xsl" type="text/xsl"?>
+<ipcEntries displayMode="e20100101;a20101001;c20100101" ipcLevel="a" split="subclass" languages=",en,fr," size="168658">
+	<ipcEntry kind="s" symbol="C" ipcLevel="C" entryType="K" lang="EN">
+		<textBody>
+			<title>
+				<titlePart>
+					<text>SECTION C <emdash/> CHEMISTRY</text>
+				</titlePart>
+				<titlePart>
+					<text>METALLURGY</text>
+				</titlePart>
+			</title>
+		</textBody>
+		<ipcEntry kind="n" symbol="C" ipcLevel="C" entryType="K" lang="EN">
+			<textBody>
+				<note type="number">
+					<noteParagraph>
+						<text>In section C, the definitions of groups of chemical elements are as follows: </text>
+						<subnote type="none" indent="1">
+							<noteParagraph>
+								<text><u>Alkali metals:</u> Li, Na, K, Rb, Cs, Fr</text>
+							</noteParagraph>
+							<noteParagraph>
+								<text><u>Alkaline earth metals:</u> Ca, Sr, Ba, Ra</text>
+							</noteParagraph>
+							<noteParagraph>
+								<text><u>Lanthanides:</u> elements with atomic numbers 57 to 71 inclusive</text>
+							</noteParagraph>
+							<noteParagraph>
+								<text><u>Rare earths:</u> Sc, Y, Lanthanides</text>
+							</noteParagraph>
+							<noteParagraph>
+								<text><u>Actinides:</u> elements with atomic numbers 89 to 103 inclusive</text>
+							</noteParagraph>
+							<noteParagraph>
+								<text><u>Refractory metals:</u> Ti, V, Cr, Zr, Nb, Mo, Hf, Ta, W</text>
+							</noteParagraph>
+							<noteParagraph>
+								<text><u>Halogens:</u> F, Cl, Br, I, At</text>
+							</noteParagraph>
+							<noteParagraph>
+								<text><u>Noble gases:</u> He, Ne, Ar, Kr, Xe, Rn</text>
+							</noteParagraph>
+							<noteParagraph>
+								<text><u>Platinum group:</u> Os, Ir, Pt, Ru, Rh, Pd</text>
+							</noteParagraph>
+							<noteParagraph>
+								<text><u>Noble metals:</u> Ag, Au, Platinum group</text>
+							</noteParagraph>
+							<noteParagraph>
+								<text><u>Light metals:</u> alkali metals, alkaline earth metals, Be, Al, Mg</text>
+							</noteParagraph>
+							<noteParagraph>
+								<text><u>Heavy metals:</u> metals other than light metals</text>
+							</noteParagraph>
+							<noteParagraph>
+								<text><u>Iron group:</u> Fe, Co, Ni</text>
+							</noteParagraph>
+							<noteParagraph>
+								<text><u>Non-metals:</u> H, B, C, Si, N, P, O, S, Se, Te, noble gases, halogens</text>
+							</noteParagraph>
+							<noteParagraph>
+								<text><u>Metals:</u> elements other than non-metals</text>
+							</noteParagraph>
+							<noteParagraph>
+								<text><u>Transition elements:</u> elements with atomic numbers 21 to 30 inclusive, 39 to 48 inclusive, 57 to 80 inclusive, 89 upwards</text>
+							</noteParagraph>
+						</subnote>
+					</noteParagraph>
+					<noteParagraph>
+						<text>Section C <u>covers </u>: </text>
+						<subnote type="alpha" indent="1">
+							<noteParagraph>
+								<text>pure chemistry, which covers inorganic compounds, organic compounds, macromolecular compounds, and their methods of preparation;</text>
+							</noteParagraph>
+							<noteParagraph>
+								<text>applied chemistry, which covers compositions containing the above compounds, such as: glass, ceramics, fertilisers, plastics compositions, paints, products of the petroleum industry. It also <u>covers</u> certain compositions on account of their having particular properties rendering them suitable for certain purposes, as in the case of explosives, dyestuffs, adhesives, lubricants, and detergents;</text>
+							</noteParagraph>
+							<noteParagraph>
+								<text>certain marginal industries, such as the manufacture of coke and of solid or gaseous fuels, the production and refining of oils, fats and waxes, the fermentation industry (e.g., brewing and wine-making), the sugar industry;</text>
+							</noteParagraph>
+							<noteParagraph>
+								<text>certain operations or treatments, which are either purely mechanical, e.g., the mechanical treatment of leather and skins, or partly mechanical, e.g., the treatment of water or the prevention of corrosion in general;</text>
+							</noteParagraph>
+							<noteParagraph>
+								<text>metallurgy, ferrous or non-ferrous alloys.</text>
+							</noteParagraph>
+						</subnote>
+					</noteParagraph>
+					<noteParagraph edition="20090101">
+						<text>In all sections of the IPC, in the absence of an indication to the contrary, the Periodic System of chemical elements referred to is the one with 8 groups as represented in the table below. For example, group <sref ref="C07F0003000000"/><nbsp/>"Compounds containing elements of the 2nd Group of the Periodic System" refers to the elements of columns IIa and IIb.</text>
+						<subnote type="none" indent="1">
+							<noteParagraph>
+								<text>
+									<img src="fig401.gif"/>
+								</text>
+							</noteParagraph>
+						</subnote>
+					</noteParagraph>
+					<noteParagraph>
+						<text/>
+						<subnote type="alpha" indent="1">
+							<noteParagraph>
+								<text>In the case of operations, treatments, products or articles having both a chemical and a non-chemical part or aspect, the general rule is that the chemical part or aspect is covered by section C.</text>
+							</noteParagraph>
+							<noteParagraph>
+								<text>In some of these cases, the chemical part or aspect brings with it a non-chemical one, even though purely mechanical, because this latter aspect either is essential to the operation or treatment or constitutes an important element thereof. It has seemed, in fact, more logical not to dissociate the different parts or aspects of a coherent whole. This is the case for applied chemistry and for the industries, operations and treatments mentioned in Notes (1)(c), (d) and (e). For example, furnaces peculiar to the manufacture of glass are covered by class <sref ref="C03"/> and not by class <sref ref="F27"/>.</text>
+							</noteParagraph>
+							<noteParagraph>
+								<text>There are, however, some exceptions in which the mechanical (or non-chemical) aspect carries with it the chemical aspect, for example: </text>
+								<subnote type="bullet" indent="2">
+									<noteParagraph>
+										<text>Certain extractive processes, in subclass <sref ref="A61K"/>;</text>
+									</noteParagraph>
+									<noteParagraph>
+										<text>The chemical purification of air, in subclass <sref ref="A61L"/>;</text>
+									</noteParagraph>
+									<noteParagraph>
+										<text>Chemical methods of fire-fighting, in subclass <sref ref="A62D"/>;</text>
+									</noteParagraph>
+									<noteParagraph>
+										<text>Chemical processes and apparatus, in class <sref ref="B01"/>;</text>
+									</noteParagraph>
+									<noteParagraph>
+										<text>Impregnation of wood, in subclass <sref ref="B27K"/>;</text>
+									</noteParagraph>
+									<noteParagraph>
+										<text>Chemical methods of analysis or testing, in subclass <sref ref="G01N"/>;</text>
+									</noteParagraph>
+									<noteParagraph>
+										<text>Photographic materials and processes, in class <sref ref="G03"/>, and, generally, the chemical treatment of textiles and the production of cellulose or paper, in section D.</text>
+									</noteParagraph>
+								</subnote>
+							</noteParagraph>
+							<noteParagraph>
+								<text>In still other cases, the pure chemical aspect is covered by section C and the applied chemical aspect by another section, such as A, B or F, e.g., the use of a substance or composition for: </text>
+								<subnote type="bullet" indent="2">
+									<noteParagraph>
+										<text>treatment of plants or animals, covered by subclass <sref ref="A01N"/>;</text>
+									</noteParagraph>
+									<noteParagraph>
+										<text>foodstuffs, covered by class <sref ref="A23"/>;</text>
+									</noteParagraph>
+									<noteParagraph>
+										<text>ammunition or explosives, covered by class <sref ref="F42"/>.</text>
+									</noteParagraph>
+								</subnote>
+							</noteParagraph>
+							<noteParagraph>
+								<text>When the chemical and mechanical aspects are so closely interlocked that a neat and simple division is not possible, or when certain mechanical processes follow as a natural or logical continuation of a chemical treatment, section C may cover, in addition to the chemical aspect, a part only of the mechanical aspect, e.g., after-treatment of artificial stone, covered by class <sref ref="C04"/>. In this latter case, a note or a reference is usually given to make the position clear, even if sometimes the division is rather arbitrary.</text>
+							</noteParagraph>
+						</subnote>
+					</noteParagraph>
+				</note>
+			</textBody>
+		</ipcEntry>
+		<ipcEntry kind="t" symbol="C01" endSymbol="C14" ipcLevel="C" entryType="K" lang="EN">
+			<textBody>
+				<title>
+					<titlePart>
+						<text>CHEMISTRY</text>
+					</titlePart>
+				</title>
+			</textBody>
+		</ipcEntry>
+		<ipcEntry kind="c" symbol="C12" ipcLevel="C" entryType="K" lang="EN">
+			<textBody>
+				<title>
+					<titlePart>
+						<text>BIOCHEMISTRY</text>
+					</titlePart>
+					<titlePart>
+						<text>BEER</text>
+					</titlePart>
+					<titlePart>
+						<text>SPIRITS</text>
+					</titlePart>
+					<titlePart>
+						<text>WINE</text>
+					</titlePart>
+					<titlePart>
+						<text>VINEGAR</text>
+					</titlePart>
+					<titlePart>
+						<text>MICROBIOLOGY</text>
+					</titlePart>
+					<titlePart>
+						<text>ENZYMOLOGY</text>
+					</titlePart>
+					<titlePart>
+						<text>MUTATION OR GENETIC ENGINEERING</text>
+					</titlePart>
+				</title>
+			</textBody>
+			<ipcEntry kind="n" symbol="C12" ipcLevel="C" entryType="K" lang="EN">
+				<textBody>
+					<note type="number">
+						<noteParagraph edition="19800101">
+							<text>Between subclasses <mref ref="C12M" endRef="C12Q"/>, and within each of these subclasses, in the absence of an indication to the contrary, classification is made in the last appropriate place. For example, a fermentation or enzyme-using process involving condition-responsive control is classified in subclass <sref ref="C12Q"/>.</text>
+						</noteParagraph>
+						<noteParagraph edition="19800101,19900101">
+							<text>In this class, viruses, undifferentiated human, animal or plant cells, protozoa, tissues and unicellular algae are considered as micro-organisms.</text>
+						</noteParagraph>
+						<noteParagraph edition="19900101">
+							<text>In this class, unless specifically provided for, undifferentiated human, animal or plant cells, protozoa, tissues and unicellular algae are classified together with micro-organisms. Sub-cellular parts, unless specifically provided for, are classified with the whole cell.</text>
+						</noteParagraph>
+					</note>
+				</textBody>
+			</ipcEntry>
+			<ipcEntry kind="n" symbol="C12" endSymbol="C12S" ipcLevel="A" entryType="K" lang="EN" nocore="yes">
+				<textBody>
+					<note>
+						<noteParagraph edition="19800101">
+							<text>The codes of subclass <sref ref="C12R"/> are <u>only</u> for use as indexing codes associated with subclasses <mref ref="C12C" endRef="C12Q"/> or <sref ref="C12S"/>, so as to provide information concerning the micro-organisms used in the processes classified in these subclasses.</text>
+						</noteParagraph>
+					</note>
+				</textBody>
+			</ipcEntry>
+			<ipcEntry kind="u" symbol="C12N" ipcLevel="C" edition="19800101" entryType="K" lang="EN">
+				<textBody>
+					<title>
+						<titlePart>
+							<text>MICRO-ORGANISMS OR ENZYMES</text>
+						</titlePart>
+						<titlePart>
+							<text>COMPOSITIONS THEREOF</text>
+							<entryReference>biocides, pest repellants or attractants, or plant growth regulators containing micro-organisms, viruses, microbial fungi, enzymes, fermentates, or substances produced by, or extracted from, micro-organisms or animal material <sref ref="A01N0063000000"/></entryReference>
+							<entryReference>food compositions <sref ref="A21"/>, <sref ref="A23"/></entryReference>
+							<entryReference>medicinal preparations <sref ref="A61K"/></entryReference>
+							<entryReference>chemical aspects of, or use of materials for, bandages, dressings, absorbent pads or surgical articles <sref ref="A61L"/></entryReference>
+							<entryReference>fertilisers <sref ref="C05"/></entryReference>
+						</titlePart>
+						<titlePart>
+							<text>PROPAGATING, PRESERVING, OR MAINTAINING MICRO-ORGANISMS</text>
+							<entryReference>preservation of living parts of humans or animals <sref ref="A01N0001020000"/></entryReference>
+						</titlePart>
+						<titlePart>
+							<text>MUTATION OR GENETIC ENGINEERING</text>
+						</titlePart>
+						<titlePart>
+							<text>CULTURE MEDIA</text>
+							<entryReference>microbiological testing media <sref ref="C12Q"/></entryReference>
+						</titlePart>
+					</title>
+				</textBody>
+				<ipcEntry kind="n" symbol="C12N" ipcLevel="C" entryType="K" lang="EN">
+					<textBody>
+						<note type="number">
+							<noteParagraph edition="19800101,19850101">
+								<text>Attention is drawn to Notes (1) to (3) following the title of class <sref ref="C12"/>.</text>
+							</noteParagraph>
+							<noteParagraph edition="20060101">
+								<text>Biocidal, pest repellant, pest attractant or plant growth regulatory activity of compounds or preparations is further classified in subclass <sref ref="A01P"/>.</text>
+							</noteParagraph>
+							<noteParagraph edition="20000101">
+								<text>Therapeutic activity of single-cell proteins or enzymes is further classified in subclass <sref ref="A61P"/>.</text>
+							</noteParagraph>
+							<noteParagraph edition="20060101">
+								<text>When classifying in this subclass, classification is also made in group <sref ref="B01D0015080000"/> insofar as subject matter of general interest relating to chromatography is concerned.</text>
+							</noteParagraph>
+						</note>
+					</textBody>
+				</ipcEntry>
+				<ipcEntry kind="n" symbol="C12N" endSymbol="C12N0015000000" ipcLevel="A" entryType="K" lang="EN" nocore="yes">
+					<textBody>
+						<note>
+							<noteParagraph edition="19950101">
+								<text>In this subclass, it is desirable to add the indexing codes of subclass <sref ref="C12R"/>.</text>
+							</noteParagraph>
+						</note>
+					</textBody>
+				</ipcEntry>
+				<ipcEntry kind="i" symbol="C12N" ipcLevel="C" entryType="K" lang="EN">
+					<textBody>
+						<index>
+							<indexEntry>
+								<text>MICRO-ORGANISMS; SPORES; UNDIFFERENTIATED CELLS; VIRUSES </text>
+								<references><sref ref="C12N0001000000"/>; <sref ref="C12N0003000000"/>; <sref ref="C12N0005000000"/>; <sref ref="C12N0007000000"/>; <sref ref="C12N0011000000"/></references>
+							</indexEntry>
+							<indexEntry>
+								<text>ENZYMES </text>
+								<references><sref ref="C12N0009000000"/>, <sref ref="C12N0011000000"/></references>
+							</indexEntry>
+							<indexEntry>
+								<text>TREATMENT WITH ELECTRICAL OR WAVE ENERGY </text>
+								<references><sref ref="C12N0013000000"/></references>
+							</indexEntry>
+							<indexEntry>
+								<text>MUTATION OR GENETIC ENGINEERING </text>
+								<references><sref ref="C12N0015000000"/></references>
+							</indexEntry>
+						</index>
+					</textBody>
+				</ipcEntry>
+				<ipcEntry kind="m" symbol="C12N0001000000" ipcLevel="C" edition="19800101" entryType="K" lang="EN" priorityOrder="70">
+					<textBody>
+						<title>
+							<titlePart>
+								<text>Micro-organisms, e.g. protozoa</text>
+							</titlePart>
+							<titlePart>
+								<text>Compositions thereof</text>
+								<entryReference>medicinal preparations containing material from protozoa, bacteria or viruses <sref ref="A61K0035660000"/>, from algae <sref ref="A61K0036020000"/>, from fungi <sref ref="A61K0036060000"/></entryReference>
+								<entryReference>preparing medicinal bacterial antigen or antibody compositions, e.g. bacterial vaccines, <sref ref="A61K0039000000"/></entryReference>
+							</titlePart>
+							<titlePart>
+								<text>Processes of propagating, maintaining or preserving micro-organisms or compositions thereof</text>
+							</titlePart>
+							<titlePart>
+								<text>Processes of preparing or isolating a composition containing a micro-organism</text>
+							</titlePart>
+							<titlePart>
+								<text>Culture media therefor</text>
+							</titlePart>
+						</title>
+					</textBody>
+					<ipcEntry kind="1" symbol="C12N0001020000" ipcLevel="C" edition="19800101" entryType="K" lang="EN">
+						<textBody>
+							<title>
+								<titlePart>
+									<text>Separating micro-organisms from their culture media</text>
+								</titlePart>
+							</title>
+						</textBody>
+					</ipcEntry>
+					<ipcEntry kind="1" symbol="C12N0001040000" ipcLevel="C" edition="19800101" entryType="K" lang="EN">
+						<textBody>
+							<title>
+								<titlePart>
+									<text>Preserving or maintaining viable micro-organisms</text>
+									<entryReference>immobilised micro-organisms <sref ref="C12N0011000000"/></entryReference>
+								</titlePart>
+							</title>
+						</textBody>
+					</ipcEntry>
+					<ipcEntry kind="1" symbol="C12N0001060000" ipcLevel="C" edition="19800101" entryType="K" lang="EN">
+						<textBody>
+							<title>
+								<titlePart>
+									<text>Lysis of micro-organisms</text>
+								</titlePart>
+							</title>
+						</textBody>
+					</ipcEntry>
+					<ipcEntry kind="1" symbol="C12N0001080000" ipcLevel="C" edition="19800101" entryType="K" lang="EN">
+						<textBody>
+							<title>
+								<titlePart>
+									<text>Reducing the nucleic acid content</text>
+								</titlePart>
+							</title>
+						</textBody>
+					</ipcEntry>
+					<ipcEntry kind="1" symbol="C12N0001100000" ipcLevel="C" edition="19800101" entryType="K" lang="EN">
+						<textBody>
+							<title>
+								<titlePart>
+									<text>Protozoa</text>
+								</titlePart>
+								<titlePart>
+									<text>Culture media therefor</text>
+								</titlePart>
+							</title>
+						</textBody>
+						<ipcEntry kind="2" symbol="C12N0001110000" ipcLevel="A" edition="19900101" entryType="K" lang="EN" nocore="yes">
+							<textBody>
+								<title>
+									<titlePart>
+										<text>modified by introduction of foreign genetic material</text>
+									</titlePart>
+								</title>
+							</textBody>
+						</ipcEntry>
+					</ipcEntry>
+					<ipcEntry kind="1" symbol="C12N0001120000" ipcLevel="C" edition="19800101" entryType="K" lang="EN">
+						<textBody>
+							<title>
+								<titlePart>
+									<text>Unicellular algae</text>
+								</titlePart>
+								<titlePart>
+									<text>Culture media therefor</text>
+									<entryReference>culture of multi-cellular plants <sref ref="A01G"/></entryReference>
+									<entryReference>as new plants <sref ref="A01H0013000000"/></entryReference>
+								</titlePart>
+							</title>
+						</textBody>
+						<ipcEntry kind="2" symbol="C12N0001130000" ipcLevel="A" edition="19900101" entryType="K" lang="EN" nocore="yes">
+							<textBody>
+								<title>
+									<titlePart>
+										<text>modified by introduction of foreign genetic material</text>
+									</titlePart>
+								</title>
+							</textBody>
+						</ipcEntry>
+					</ipcEntry>
+					<ipcEntry kind="1" symbol="C12N0001140000" ipcLevel="C" edition="19800101" entryType="K" lang="EN">
+						<textBody>
+							<title>
+								<titlePart>
+									<text>Fungi</text>
+									<entryReference>culture of mushrooms <sref ref="A01G0001040000"/></entryReference>
+									<entryReference>as new plants <sref ref="A01H0015000000"/></entryReference>
+								</titlePart>
+								<titlePart>
+									<text>Culture media therefor</text>
+								</titlePart>
+							</title>
+						</textBody>
+						<ipcEntry kind="2" symbol="C12N0001150000" ipcLevel="C" edition="19900101" entryType="K" lang="EN">
+							<textBody>
+								<title>
+									<titlePart>
+										<text>modified by introduction of foreign genetic material</text>
+									</titlePart>
+								</title>
+							</textBody>
+						</ipcEntry>
+						<ipcEntry kind="2" symbol="C12N0001160000" ipcLevel="C" edition="19800101" entryType="K" lang="EN">
+							<textBody>
+								<title>
+									<titlePart>
+										<text>Yeasts</text>
+									</titlePart>
+									<titlePart>
+										<text>Culture media therefor</text>
+									</titlePart>
+								</title>
+							</textBody>
+							<ipcEntry kind="3" symbol="C12N0001180000" ipcLevel="C" edition="19800101" entryType="K" lang="EN">
+								<textBody>
+									<title>
+										<titlePart>
+											<text>Baker's yeast</text>
+										</titlePart>
+										<titlePart>
+											<text>Brewer's yeast</text>
+										</titlePart>
+									</title>
+								</textBody>
+							</ipcEntry>
+							<ipcEntry kind="3" symbol="C12N0001190000" ipcLevel="C" edition="19900101" entryType="K" lang="EN">
+								<textBody>
+									<title>
+										<titlePart>
+											<text>modified by introduction of foreign genetic material</text>
+										</titlePart>
+									</title>
+								</textBody>
+							</ipcEntry>
+						</ipcEntry>
+					</ipcEntry>
+					<ipcEntry kind="1" symbol="C12N0001200000" ipcLevel="C" edition="19800101" entryType="K" lang="EN">
+						<textBody>
+							<title>
+								<titlePart>
+									<text>Bacteria</text>
+								</titlePart>
+								<titlePart>
+									<text>Culture media therefor</text>
+								</titlePart>
+							</title>
+						</textBody>
+						<ipcEntry kind="2" symbol="C12N0001210000" ipcLevel="C" edition="19900101" entryType="K" lang="EN">
+							<textBody>
+								<title>
+									<titlePart>
+										<text>modified by introduction of foreign genetic material</text>
+									</titlePart>
+								</title>
+							</textBody>
+						</ipcEntry>
+					</ipcEntry>
+					<ipcEntry kind="1" symbol="C12N0001220000" ipcLevel="C" edition="19800101" entryType="K" lang="EN">
+						<textBody>
+							<title>
+								<titlePart>
+									<text>Processes using, or culture media containing, cellulose or hydrolysates thereof</text>
+								</titlePart>
+							</title>
+						</textBody>
+					</ipcEntry>
+					<ipcEntry kind="1" symbol="C12N0001240000" ipcLevel="C" edition="19800101" entryType="K" lang="EN">
+						<textBody>
+							<title>
+								<titlePart>
+									<text>Processes using, or culture media containing, waste sulfite liquor</text>
+								</titlePart>
+							</title>
+						</textBody>
+					</ipcEntry>
+					<ipcEntry kind="1" symbol="C12N0001260000" ipcLevel="C" edition="19800101" entryType="K" lang="EN">
+						<textBody>
+							<title>
+								<titlePart>
+									<text>Processes using, or culture media containing, hydrocarbons</text>
+									<entryReference>refining of hydrocarbon oils by using micro-organisms <sref ref="C10G0032000000"/></entryReference>
+								</titlePart>
+							</title>
+						</textBody>
+						<ipcEntry kind="2" symbol="C12N0001280000" ipcLevel="A" edition="19800101" entryType="K" lang="EN" nocore="yes">
+							<textBody>
+								<title>
+									<titlePart>
+										<text>aliphatic</text>
+									</titlePart>
+								</title>
+							</textBody>
+							<ipcEntry kind="3" symbol="C12N0001300000" ipcLevel="A" edition="19800101" entryType="K" lang="EN" nocore="yes">
+								<textBody>
+									<title>
+										<titlePart>
+											<text>having five or less carbon atoms</text>
+										</titlePart>
+									</title>
+								</textBody>
+							</ipcEntry>
+						</ipcEntry>
+					</ipcEntry>
+					<ipcEntry kind="1" symbol="C12N0001320000" ipcLevel="C" edition="19800101" entryType="K" lang="EN">
+						<textBody>
+							<title>
+								<titlePart>
+									<text>Processes using, or culture media containing, lower alkanols, i.e. C<sub>1</sub> to C<sub>6</sub></text>
+								</titlePart>
+							</title>
+						</textBody>
+					</ipcEntry>
+					<ipcEntry kind="1" symbol="C12N0001340000" ipcLevel="C" edition="19800101" entryType="K" lang="EN">
+						<textBody>
+							<title>
+								<titlePart>
+									<text>Processes using foam culture</text>
+								</titlePart>
+							</title>
+						</textBody>
+					</ipcEntry>
+					<ipcEntry kind="1" symbol="C12N0001360000" ipcLevel="C" edition="19800101" entryType="K" lang="EN">
+						<textBody>
+							<title>
+								<titlePart>
+									<text>Adaptation or attenuation of cells</text>
+								</titlePart>
+							</title>
+						</textBody>
+					</ipcEntry>
+					<ipcEntry kind="1" symbol="C12N0001380000" ipcLevel="C" edition="19800101" entryType="K" lang="EN">
+						<textBody>
+							<title>
+								<titlePart>
+									<text>Chemical stimulation of growth or activity by addition of chemical compounds which are not essential growth factors</text>
+								</titlePart>
+								<titlePart>
+									<text>Stimulation of growth by removal of a chemical compound</text>
+									<entryReference><sref ref="C12N0001340000"/> takes precedence</entryReference>
+								</titlePart>
+							</title>
+						</textBody>
+					</ipcEntry>
+				</ipcEntry>
+				<ipcEntry kind="m" symbol="C12N0003000000" ipcLevel="C" edition="19800101" entryType="K" lang="EN" priorityOrder="60">
+					<textBody>
+						<title>
+							<titlePart>
+								<text>Spore-forming or isolating processes</text>
+							</titlePart>
+						</title>
+					</textBody>
+				</ipcEntry>
+				<ipcEntry kind="m" symbol="C12N0005000000" ipcLevel="C" edition="19800101,19900101" entryType="K" lang="EN" priorityOrder="50">
+					<textBody>
+						<title>
+							<titlePart>
+								<text>Undifferentiated human, animal or plant cells, e.g. cell lines</text>
+							</titlePart>
+							<titlePart>
+								<text>Tissues</text>
+							</titlePart>
+							<titlePart>
+								<text>Cultivation or maintenance thereof</text>
+							</titlePart>
+							<titlePart>
+								<text>Culture media therefor</text>
+								<entryReference>plant reproduction by tissue culture techniques <sref ref="A01H0004000000"/></entryReference>
+							</titlePart>
+						</title>
+					</textBody>
+					<ipcEntry kind="1" symbol="C12N0005020000" ipcLevel="C" edition="19800101" entryType="K" lang="EN">
+						<textBody>
+							<title>
+								<titlePart>
+									<text>Propagation of single cells or cells in suspension</text>
+								</titlePart>
+								<titlePart>
+									<text>Maintenance thereof</text>
+								</titlePart>
+								<titlePart>
+									<text>Culture media therefor</text>
+								</titlePart>
+							</title>
+						</textBody>
+					</ipcEntry>
+					<ipcEntry kind="1" symbol="C12N0005040000" ipcLevel="C" edition="19900101" entryType="K" lang="EN">
+						<textBody>
+							<title>
+								<titlePart>
+									<text>Plant cells or tissues</text>
+								</titlePart>
+							</title>
+						</textBody>
+					</ipcEntry>
+					<ipcEntry kind="d" symbol="C12N0005060000" ipcLevel="C" entryType="K" lang="EN">
+						<textBody>
+							<deleted>
+								<transferredTo>
+									<sref ref="C12N0005070000"/>
+								</transferredTo>
+							</deleted>
+						</textBody>
+					</ipcEntry>
+					<ipcEntry kind="1" symbol="C12N0005070000" ipcLevel="C" edition="20100101" entryType="K" lang="EN">
+						<textBody>
+							<title>
+								<titlePart>
+									<text>Animal cells or tissues</text>
+								</titlePart>
+							</title>
+						</textBody>
+						<ipcEntry kind="n" symbol="C12N0005070000" ipcLevel="C" edition="20100101" entryType="K" lang="EN">
+							<textBody>
+								<note type="none">
+									<noteParagraph edition="20100101">
+										<text>The last place priority rule does not apply between the subgroups of this group.</text>
+									</noteParagraph>
+								</note>
+							</textBody>
+						</ipcEntry>
+						<ipcEntry kind="2" symbol="C12N0005071000" ipcLevel="C" edition="20100101" entryType="K" lang="EN">
+							<textBody>
+								<title>
+									<titlePart>
+										<text>Vertebrate cells or tissues, e.g. human cells or tissues</text>
+									</titlePart>
+								</title>
+							</textBody>
+							<ipcEntry kind="3" symbol="C12N0005073000" ipcLevel="C" edition="20100101" entryType="K" lang="EN">
+								<textBody>
+									<title>
+										<titlePart>
+											<text>Embryonic cells or tissues</text>
+										</titlePart>
+										<titlePart>
+											<text>Foetal cells or tissues</text>
+										</titlePart>
+									</title>
+								</textBody>
+								<ipcEntry kind="4" symbol="C12N0005073500" ipcLevel="C" edition="20100101" entryType="K" lang="EN">
+									<textBody>
+										<title>
+											<titlePart>
+												<text>Embryonic stem cells</text>
+											</titlePart>
+											<titlePart>
+												<text>Embryonic germ cells</text>
+											</titlePart>
+										</title>
+									</textBody>
+								</ipcEntry>
+							</ipcEntry>
+							<ipcEntry kind="3" symbol="C12N0005074000" ipcLevel="C" edition="20100101" entryType="K" lang="EN">
+								<textBody>
+									<title>
+										<titlePart>
+											<text>Adult stem cells</text>
+										</titlePart>
+									</title>
+								</textBody>
+							</ipcEntry>
+							<ipcEntry kind="3" symbol="C12N0005075000" ipcLevel="C" edition="20100101" entryType="K" lang="EN">
+								<textBody>
+									<title>
+										<titlePart>
+											<text>Oocytes</text>
+										</titlePart>
+										<titlePart>
+											<text>Oogonia</text>
+										</titlePart>
+									</title>
+								</textBody>
+							</ipcEntry>
+							<ipcEntry kind="3" symbol="C12N0005076000" ipcLevel="C" edition="20100101" entryType="K" lang="EN">
+								<textBody>
+									<title>
+										<titlePart>
+											<text>Sperm cells</text>
+										</titlePart>
+										<titlePart>
+											<text>Spermatogonia</text>
+										</titlePart>
+									</title>
+								</textBody>
+							</ipcEntry>
+							<ipcEntry kind="3" symbol="C12N0005077000" ipcLevel="C" edition="20100101" entryType="K" lang="EN">
+								<textBody>
+									<title>
+										<titlePart>
+											<text>Mesenchymal cells, e.g. bone cells, cartilage cells, marrow stromal cells, fat cells or muscle cells</text>
+										</titlePart>
+									</title>
+								</textBody>
+								<ipcEntry kind="4" symbol="C12N0005077500" ipcLevel="C" edition="20100101" entryType="K" lang="EN">
+									<textBody>
+										<title>
+											<titlePart>
+												<text>Mesenchymal stem cells</text>
+											</titlePart>
+											<titlePart>
+												<text>Adipose-tissue derived stem cells</text>
+											</titlePart>
+										</title>
+									</textBody>
+								</ipcEntry>
+							</ipcEntry>
+							<ipcEntry kind="3" symbol="C12N0005078000" ipcLevel="C" edition="20100101" entryType="K" lang="EN">
+								<textBody>
+									<title>
+										<titlePart>
+											<text>Cells from blood or from the immune system</text>
+										</titlePart>
+									</title>
+								</textBody>
+								<ipcEntry kind="4" symbol="C12N0005078100" ipcLevel="C" edition="20100101" entryType="K" lang="EN">
+									<textBody>
+										<title>
+											<titlePart>
+												<text>B cells</text>
+											</titlePart>
+											<titlePart>
+												<text>Progenitors thereof</text>
+											</titlePart>
+										</title>
+									</textBody>
+								</ipcEntry>
+								<ipcEntry kind="4" symbol="C12N0005078300" ipcLevel="C" edition="20100101" entryType="K" lang="EN">
+									<textBody>
+										<title>
+											<titlePart>
+												<text>T cells</text>
+											</titlePart>
+											<titlePart>
+												<text>NK cells</text>
+											</titlePart>
+											<titlePart>
+												<text>Progenitors of T or NK cells</text>
+											</titlePart>
+										</title>
+									</textBody>
+								</ipcEntry>
+								<ipcEntry kind="4" symbol="C12N0005078400" ipcLevel="C" edition="20100101" entryType="K" lang="EN">
+									<textBody>
+										<title>
+											<titlePart>
+												<text>Dendritic cells</text>
+											</titlePart>
+											<titlePart>
+												<text>Progenitors thereof</text>
+											</titlePart>
+										</title>
+									</textBody>
+								</ipcEntry>
+								<ipcEntry kind="4" symbol="C12N0005078600" ipcLevel="C" edition="20100101" entryType="K" lang="EN">
+									<textBody>
+										<title>
+											<titlePart>
+												<text>Monocytes</text>
+											</titlePart>
+											<titlePart>
+												<text>Macrophages</text>
+											</titlePart>
+										</title>
+									</textBody>
+								</ipcEntry>
+								<ipcEntry kind="4" symbol="C12N0005078700" ipcLevel="C" edition="20100101" entryType="K" lang="EN">
+									<textBody>
+										<title>
+											<titlePart>
+												<text>Granulocytes, e.g. basophils, eosinophils, neutrophils or mast cells</text>
+											</titlePart>
+										</title>
+									</textBody>
+								</ipcEntry>
+								<ipcEntry kind="4" symbol="C12N0005078900" ipcLevel="C" edition="20100101" entryType="K" lang="EN">
+									<textBody>
+										<title>
+											<titlePart>
+												<text>Stem cells</text>
+											</titlePart>
+											<titlePart>
+												<text>Multipotent progenitor cells</text>
+											</titlePart>
+										</title>
+									</textBody>
+								</ipcEntry>
+							</ipcEntry>
+							<ipcEntry kind="3" symbol="C12N0005079000" ipcLevel="C" edition="20100101" entryType="K" lang="EN">
+								<textBody>
+									<title>
+										<titlePart>
+											<text>Neural cells</text>
+										</titlePart>
+									</title>
+								</textBody>
+								<ipcEntry kind="4" symbol="C12N0005079300" ipcLevel="C" edition="20100101" entryType="K" lang="EN">
+									<textBody>
+										<title>
+											<titlePart>
+												<text>Neurons</text>
+											</titlePart>
+										</title>
+									</textBody>
+								</ipcEntry>
+								<ipcEntry kind="4" symbol="C12N0005079700" ipcLevel="C" edition="20100101" entryType="K" lang="EN">
+									<textBody>
+										<title>
+											<titlePart>
+												<text>Stem cells</text>
+											</titlePart>
+											<titlePart>
+												<text>Progenitor cells</text>
+											</titlePart>
+										</title>
+									</textBody>
+								</ipcEntry>
+							</ipcEntry>
+						</ipcEntry>
+					</ipcEntry>
+					<ipcEntry kind="d" symbol="C12N0005080000" ipcLevel="C" entryType="K" lang="EN">
+						<textBody>
+							<deleted>
+								<transferredTo>
+									<sref ref="C12N0005071000"/>
+								</transferredTo>
+							</deleted>
+						</textBody>
+					</ipcEntry>
+					<ipcEntry kind="1" symbol="C12N0005090000" ipcLevel="C" edition="20100101" entryType="K" lang="EN">
+						<textBody>
+							<title>
+								<titlePart>
+									<text>Tumour cells</text>
+								</titlePart>
+							</title>
+						</textBody>
+						<ipcEntry kind="2" symbol="C12N0005095000" ipcLevel="C" edition="20100101" entryType="K" lang="EN">
+							<textBody>
+								<title>
+									<titlePart>
+										<text>Stem cells</text>
+									</titlePart>
+									<titlePart>
+										<text>Progenitor cells</text>
+									</titlePart>
+								</title>
+							</textBody>
+						</ipcEntry>
+					</ipcEntry>
+					<ipcEntry kind="1" symbol="C12N0005100000" ipcLevel="C" edition="19900101" entryType="K" lang="EN">
+						<textBody>
+							<title>
+								<titlePart>
+									<text>Cells modified by introduction of foreign genetic material, e.g. virus-transformed cells</text>
+								</titlePart>
+							</title>
+						</textBody>
+						<ipcEntry kind="2" symbol="C12N0005120000" ipcLevel="C" edition="19900101" entryType="K" lang="EN">
+							<textBody>
+								<title>
+									<titlePart>
+										<text>Fused cells, e.g. hybridomas</text>
+									</titlePart>
+								</title>
+							</textBody>
+							<ipcEntry kind="3" symbol="C12N0005140000" ipcLevel="C" edition="19900101" entryType="K" lang="EN">
+								<textBody>
+									<title>
+										<titlePart>
+											<text>Plant cells</text>
+										</titlePart>
+									</title>
+								</textBody>
+							</ipcEntry>
+							<ipcEntry kind="3" symbol="C12N0005160000" ipcLevel="C" edition="19900101" entryType="K" lang="EN">
+								<textBody>
+									<title>
+										<titlePart>
+											<text>Animal cells</text>
+										</titlePart>
+									</title>
+								</textBody>
+								<ipcEntry kind="4" symbol="C12N0005180000" ipcLevel="C" edition="19900101" entryType="K" lang="EN">
+									<textBody>
+										<title>
+											<titlePart>
+												<text>Murine cells, e.g. mouse cells</text>
+											</titlePart>
+										</title>
+									</textBody>
+									<ipcEntry kind="5" symbol="C12N0005200000" ipcLevel="C" edition="19900101" entryType="K" lang="EN">
+										<textBody>
+											<title>
+												<titlePart>
+													<text>one of the fusion partners being a B lymphocyte</text>
+												</titlePart>
+											</title>
+										</textBody>
+									</ipcEntry>
+								</ipcEntry>
+							</ipcEntry>
+							<ipcEntry kind="3" symbol="C12N0005220000" ipcLevel="C" edition="19900101" entryType="K" lang="EN">
+								<textBody>
+									<title>
+										<titlePart>
+											<text>Human cells</text>
+										</titlePart>
+									</title>
+								</textBody>
+								<ipcEntry kind="4" symbol="C12N0005240000" ipcLevel="A" edition="19900101" entryType="K" lang="EN" nocore="yes">
+									<textBody>
+										<title>
+											<titlePart>
+												<text>one of the fusion partners being a B lymphocyte</text>
+											</titlePart>
+										</title>
+									</textBody>
+								</ipcEntry>
+							</ipcEntry>
+							<ipcEntry kind="3" symbol="C12N0005260000" ipcLevel="C" edition="19900101" entryType="K" lang="EN">
+								<textBody>
+									<title>
+										<titlePart>
+											<text>Cells resulting from interspecies fusion</text>
+										</titlePart>
+									</title>
+								</textBody>
+								<ipcEntry kind="4" symbol="C12N0005280000" ipcLevel="A" edition="19900101" entryType="K" lang="EN" nocore="yes">
+									<textBody>
+										<title>
+											<titlePart>
+												<text>one of the fusion partners being a human cell</text>
+											</titlePart>
+										</title>
+									</textBody>
+								</ipcEntry>
+							</ipcEntry>
+						</ipcEntry>
+					</ipcEntry>
+				</ipcEntry>
+				<ipcEntry kind="m" symbol="C12N0007000000" ipcLevel="C" edition="19800101" entryType="K" lang="EN" priorityOrder="40">
+					<textBody>
+						<title>
+							<titlePart>
+								<text>Viruses, e.g. bacteriophages</text>
+							</titlePart>
+							<titlePart>
+								<text>Compositions thereof</text>
+							</titlePart>
+							<titlePart>
+								<text>Preparation or purification thereof</text>
+								<entryReference>medicinal preparations containing viruses <sref ref="A61K0035760000"/></entryReference>
+								<entryReference>preparing medicinal viral antigen or antibody compositions, e.g. virus vaccines, <sref ref="A61K0039000000"/></entryReference>
+							</titlePart>
+						</title>
+					</textBody>
+					<ipcEntry kind="1" symbol="C12N0007010000" ipcLevel="C" edition="19900101" entryType="K" lang="EN">
+						<textBody>
+							<title>
+								<titlePart>
+									<text>Viruses, e.g. bacteriophages, modified by introduction of foreign genetic material</text>
+									<entryReference>vectors <sref ref="C12N0015000000"/></entryReference>
+								</titlePart>
+							</title>
+						</textBody>
+					</ipcEntry>
+					<ipcEntry kind="1" symbol="C12N0007020000" ipcLevel="C" edition="19800101" entryType="K" lang="EN">
+						<textBody>
+							<title>
+								<titlePart>
+									<text>Recovery or purification</text>
+								</titlePart>
+							</title>
+						</textBody>
+					</ipcEntry>
+					<ipcEntry kind="1" symbol="C12N0007040000" ipcLevel="C" edition="19800101" entryType="K" lang="EN">
+						<textBody>
+							<title>
+								<titlePart>
+									<text>Inactivation or attenuation</text>
+								</titlePart>
+								<titlePart>
+									<text>Producing viral sub-units</text>
+								</titlePart>
+							</title>
+						</textBody>
+						<ipcEntry kind="2" symbol="C12N0007060000" ipcLevel="A" edition="19800101" entryType="K" lang="EN" nocore="yes">
+							<textBody>
+								<title>
+									<titlePart>
+										<text>by chemical treatment</text>
+									</titlePart>
+								</title>
+							</textBody>
+						</ipcEntry>
+						<ipcEntry kind="2" symbol="C12N0007080000" ipcLevel="A" edition="19800101" entryType="K" lang="EN" nocore="yes">
+							<textBody>
+								<title>
+									<titlePart>
+										<text>by serial passage of virus</text>
+									</titlePart>
+								</title>
+							</textBody>
+						</ipcEntry>
+					</ipcEntry>
+				</ipcEntry>
+				<ipcEntry kind="m" symbol="C12N0009000000" ipcLevel="C" edition="19800101" entryType="K" lang="EN" priorityOrder="30">
+					<textBody>
+						<title>
+							<titlePart>
+								<text>Enzymes, e.g. ligases (6.)</text>
+							</titlePart>
+							<titlePart>
+								<text>Proenzymes</text>
+							</titlePart>
+							<titlePart>
+								<text>Compositions thereof</text>
+								<entryReference>preparations containing enzymes for cleaning teeth <sref ref="A61K0008660000"/>, <sref ref="A61Q0011000000"/></entryReference>
+								<entryReference>medicinal preparations containing enzymes or proenzymes <sref ref="A61K0038430000"/></entryReference>
+								<entryReference>enzyme containing detergent compositions <sref ref="C11D"/></entryReference>
+							</titlePart>
+							<titlePart>
+								<text>Processes for preparing, activating, inhibiting, separating, or purifying enzymes</text>
+								<entryReference>preparation of malt <sref ref="C12C0001000000"/></entryReference>
+							</titlePart>
+						</title>
+					</textBody>
+					<ipcEntry kind="n" symbol="C12N0009000000" ipcLevel="C" entryType="K" lang="EN">
+						<textBody>
+							<note type="none">
+								<noteParagraph>
+									<text>In this group:</text>
+									<subnote type="bullet">
+										<noteParagraph edition="19900101">
+											<text>proenzymes are classified with the corresponding enzymes;<nbsp/></text>
+										</noteParagraph>
+										<noteParagraph edition="19800101">
+											<text>enzymes are generally categorised according to the "Nomenclature and Classification of Enzymes" of the International Commission on Enzymes. Where appropriate, this designation appears in the subgroups below in parenthesis.<nbsp/></text>
+										</noteParagraph>
+									</subnote>
+								</noteParagraph>
+							</note>
+						</textBody>
+					</ipcEntry>
+					<ipcEntry kind="1" symbol="C12N0009020000" ipcLevel="C" edition="19800101" entryType="K" lang="EN">
+						<textBody>
+							<title>
+								<titlePart>
+									<text>Oxidoreductases (1.), e.g. luciferase</text>
+								</titlePart>
+							</title>
+						</textBody>
+						<ipcEntry kind="2" symbol="C12N0009040000" ipcLevel="C" edition="19800101" entryType="K" lang="EN">
+							<textBody>
+								<title>
+									<titlePart>
+										<text>acting on CHOH groups as donors, e.g. glucose oxidase, lactate dehydrogenase (1.1)</text>
+									</titlePart>
+								</title>
+							</textBody>
+						</ipcEntry>
+						<ipcEntry kind="2" symbol="C12N0009060000" ipcLevel="C" edition="19800101" entryType="K" lang="EN">
+							<textBody>
+								<title>
+									<titlePart>
+										<text>acting on nitrogen containing compounds as donors (1.4, 1.5, 1.7)</text>
+									</titlePart>
+								</title>
+							</textBody>
+						</ipcEntry>
+						<ipcEntry kind="2" symbol="C12N0009080000" ipcLevel="C" edition="19800101" entryType="K" lang="EN">
+							<textBody>
+								<title>
+									<titlePart>
+										<text>acting on hydrogen peroxide as acceptor (1.11)</text>
+									</titlePart>
+								</title>
+							</textBody>
+						</ipcEntry>
+					</ipcEntry>
+					<ipcEntry kind="1" symbol="C12N0009100000" ipcLevel="C" edition="19800101" entryType="K" lang="EN">
+						<textBody>
+							<title>
+								<titlePart>
+									<text>Transferases (2.)</text>
+									<entryReference>ribonucleases <sref ref="C12N0009220000"/></entryReference>
+								</titlePart>
+							</title>
+						</textBody>
+						<ipcEntry kind="2" symbol="C12N0009120000" ipcLevel="C" edition="19800101" entryType="K" lang="EN">
+							<textBody>
+								<title>
+									<titlePart>
+										<text>transferring phosphorus containing groups, e.g. kinases (2.7)</text>
+									</titlePart>
+								</title>
+							</textBody>
+						</ipcEntry>
+					</ipcEntry>
+					<ipcEntry kind="1" symbol="C12N0009140000" ipcLevel="C" edition="19800101" entryType="K" lang="EN">
+						<textBody>
+							<title>
+								<titlePart>
+									<text>Hydrolases (3.)</text>
+								</titlePart>
+							</title>
+						</textBody>
+						<ipcEntry kind="2" symbol="C12N0009160000" ipcLevel="C" edition="19800101" entryType="K" lang="EN">
+							<textBody>
+								<title>
+									<titlePart>
+										<text>acting on ester bonds (3.1)</text>
+									</titlePart>
+								</title>
+							</textBody>
+							<ipcEntry kind="3" symbol="C12N0009180000" ipcLevel="C" edition="19800101" entryType="K" lang="EN">
+								<textBody>
+									<title>
+										<titlePart>
+											<text>Carboxylic ester hydrolases</text>
+										</titlePart>
+									</title>
+								</textBody>
+								<ipcEntry kind="4" symbol="C12N0009200000" ipcLevel="A" edition="19800101" entryType="K" lang="EN" nocore="yes">
+									<textBody>
+										<title>
+											<titlePart>
+												<text>Triglyceride splitting, e.g. by means of lipase</text>
+											</titlePart>
+										</title>
+									</textBody>
+								</ipcEntry>
+							</ipcEntry>
+							<ipcEntry kind="3" symbol="C12N0009220000" ipcLevel="C" edition="19800101" entryType="K" lang="EN">
+								<textBody>
+									<title>
+										<titlePart>
+											<text>Ribonucleases</text>
+										</titlePart>
+									</title>
+								</textBody>
+							</ipcEntry>
+						</ipcEntry>
+						<ipcEntry kind="2" symbol="C12N0009240000" ipcLevel="C" edition="19800101" entryType="K" lang="EN">
+							<textBody>
+								<title>
+									<titlePart>
+										<text>acting on glycosyl compounds (3.2)</text>
+									</titlePart>
+								</title>
+							</textBody>
+							<ipcEntry kind="3" symbol="C12N0009260000" ipcLevel="C" edition="19800101" entryType="K" lang="EN">
+								<textBody>
+									<title>
+										<titlePart>
+											<text>acting on alpha-1, 4-glucosidic bonds, e.g. hyaluronidase, invertase, amylase</text>
+										</titlePart>
+									</title>
+								</textBody>
+								<ipcEntry kind="4" symbol="C12N0009280000" ipcLevel="A" edition="19800101" entryType="K" lang="EN" nocore="yes">
+									<textBody>
+										<title>
+											<titlePart>
+												<text>Alpha-amylase from microbial source, e.g. bacterial amylase</text>
+											</titlePart>
+										</title>
+									</textBody>
+									<ipcEntry kind="5" symbol="C12N0009300000" ipcLevel="A" edition="19800101" entryType="K" lang="EN" nocore="yes">
+										<textBody>
+											<title>
+												<titlePart>
+													<text>Fungal source</text>
+												</titlePart>
+											</title>
+										</textBody>
+									</ipcEntry>
+								</ipcEntry>
+								<ipcEntry kind="4" symbol="C12N0009320000" ipcLevel="A" edition="19800101" entryType="K" lang="EN" nocore="yes">
+									<textBody>
+										<title>
+											<titlePart>
+												<text>Alpha-amylase from plant source</text>
+											</titlePart>
+										</title>
+									</textBody>
+								</ipcEntry>
+								<ipcEntry kind="4" symbol="C12N0009340000" ipcLevel="A" edition="19800101" entryType="K" lang="EN" nocore="yes">
+									<textBody>
+										<title>
+											<titlePart>
+												<text>Glucoamylase</text>
+											</titlePart>
+										</title>
+									</textBody>
+								</ipcEntry>
+							</ipcEntry>
+							<ipcEntry kind="3" symbol="C12N0009360000" ipcLevel="C" edition="19800101" entryType="K" lang="EN">
+								<textBody>
+									<title>
+										<titlePart>
+											<text>acting on beta-1, 4 bonds between N-acetylmuramic acid and 2-acetylamino 2-deoxy-D-glucose, e.g. lysozyme</text>
+										</titlePart>
+									</title>
+								</textBody>
+							</ipcEntry>
+							<ipcEntry kind="3" symbol="C12N0009380000" ipcLevel="C" edition="19800101" entryType="K" lang="EN">
+								<textBody>
+									<title>
+										<titlePart>
+											<text>acting on beta-galactose-glycoside bonds, e.g. beta-galactosidase</text>
+										</titlePart>
+									</title>
+								</textBody>
+							</ipcEntry>
+							<ipcEntry kind="3" symbol="C12N0009400000" ipcLevel="C" edition="19800101" entryType="K" lang="EN">
+								<textBody>
+									<title>
+										<titlePart>
+											<text>acting on alpha-galactose-glycoside bonds, e.g. alpha-galactosidase</text>
+										</titlePart>
+									</title>
+								</textBody>
+							</ipcEntry>
+							<ipcEntry kind="3" symbol="C12N0009420000" ipcLevel="C" edition="19800101" entryType="K" lang="EN">
+								<textBody>
+									<title>
+										<titlePart>
+											<text>acting on beta-1, 4-glucosidic bonds, e.g. cellulase</text>
+										</titlePart>
+									</title>
+								</textBody>
+							</ipcEntry>
+							<ipcEntry kind="3" symbol="C12N0009440000" ipcLevel="C" edition="19800101" entryType="K" lang="EN">
+								<textBody>
+									<title>
+										<titlePart>
+											<text>acting on alpha-1, 6-glucosidic bonds, e.g. isoamylase, pullulanase</text>
+										</titlePart>
+									</title>
+								</textBody>
+								<ipcEntry kind="4" symbol="C12N0009460000" ipcLevel="A" edition="19800101" entryType="K" lang="EN" nocore="yes">
+									<textBody>
+										<title>
+											<titlePart>
+												<text>Dextranase</text>
+											</titlePart>
+										</title>
+									</textBody>
+								</ipcEntry>
+							</ipcEntry>
+						</ipcEntry>
+						<ipcEntry kind="2" symbol="C12N0009480000" ipcLevel="C" edition="19800101" entryType="K" lang="EN">
+							<textBody>
+								<title>
+									<titlePart>
+										<text>acting on peptide bonds, e.g. thromboplastin, leucine aminopeptidase (3.4)</text>
+									</titlePart>
+								</title>
+							</textBody>
+							<ipcEntry kind="3" symbol="C12N0009500000" ipcLevel="C" edition="19800101" entryType="K" lang="EN">
+								<textBody>
+									<title>
+										<titlePart>
+											<text>Proteinases</text>
+										</titlePart>
+									</title>
+								</textBody>
+								<ipcEntry kind="4" symbol="C12N0009520000" ipcLevel="C" edition="19800101" entryType="K" lang="EN">
+									<textBody>
+										<title>
+											<titlePart>
+												<text>derived from bacteria</text>
+											</titlePart>
+										</title>
+									</textBody>
+									<ipcEntry kind="5" symbol="C12N0009540000" ipcLevel="A" edition="19800101" entryType="K" lang="EN" nocore="yes">
+										<textBody>
+											<title>
+												<titlePart>
+													<text>bacteria being Bacillus</text>
+												</titlePart>
+											</title>
+										</textBody>
+										<ipcEntry kind="6" symbol="C12N0009560000" ipcLevel="A" edition="19800101" entryType="K" lang="EN" nocore="yes">
+											<textBody>
+												<title>
+													<titlePart>
+														<text>Bacillus subtilis or Bacillus licheniformis</text>
+													</titlePart>
+												</title>
+											</textBody>
+										</ipcEntry>
+									</ipcEntry>
+								</ipcEntry>
+								<ipcEntry kind="4" symbol="C12N0009580000" ipcLevel="A" edition="19800101" entryType="K" lang="EN" nocore="yes">
+									<textBody>
+										<title>
+											<titlePart>
+												<text>derived from fungi</text>
+											</titlePart>
+										</title>
+									</textBody>
+									<ipcEntry kind="5" symbol="C12N0009600000" ipcLevel="A" edition="19800101" entryType="K" lang="EN" nocore="yes">
+										<textBody>
+											<title>
+												<titlePart>
+													<text>from yeast</text>
+												</titlePart>
+											</title>
+										</textBody>
+									</ipcEntry>
+									<ipcEntry kind="5" symbol="C12N0009620000" ipcLevel="A" edition="19800101" entryType="K" lang="EN" nocore="yes">
+										<textBody>
+											<title>
+												<titlePart>
+													<text>from Aspergillus</text>
+												</titlePart>
+											</title>
+										</textBody>
+									</ipcEntry>
+								</ipcEntry>
+								<ipcEntry kind="4" symbol="C12N0009640000" ipcLevel="C" edition="19800101" entryType="K" lang="EN">
+									<textBody>
+										<title>
+											<titlePart>
+												<text>derived from animal tissue, e.g. rennin</text>
+											</titlePart>
+										</title>
+									</textBody>
+								</ipcEntry>
+							</ipcEntry>
+							<ipcEntry kind="3" symbol="C12N0009660000" ipcLevel="C" edition="19800101" entryType="K" lang="EN">
+								<textBody>
+									<title>
+										<titlePart>
+											<text>Elastase</text>
+										</titlePart>
+									</title>
+								</textBody>
+							</ipcEntry>
+							<ipcEntry kind="3" symbol="C12N0009680000" ipcLevel="C" edition="19800101" entryType="K" lang="EN">
+								<textBody>
+									<title>
+										<titlePart>
+											<text>Plasmin, i.e. fibrinolysin</text>
+										</titlePart>
+									</title>
+								</textBody>
+							</ipcEntry>
+							<ipcEntry kind="3" symbol="C12N0009700000" ipcLevel="C" edition="19800101" entryType="K" lang="EN">
+								<textBody>
+									<title>
+										<titlePart>
+											<text>Streptokinase</text>
+										</titlePart>
+									</title>
+								</textBody>
+							</ipcEntry>
+							<ipcEntry kind="3" symbol="C12N0009720000" ipcLevel="C" edition="19800101" entryType="K" lang="EN">
+								<textBody>
+									<title>
+										<titlePart>
+											<text>Urokinase</text>
+										</titlePart>
+									</title>
+								</textBody>
+							</ipcEntry>
+							<ipcEntry kind="3" symbol="C12N0009740000" ipcLevel="C" edition="19800101" entryType="K" lang="EN">
+								<textBody>
+									<title>
+										<titlePart>
+											<text>Thrombin</text>
+										</titlePart>
+									</title>
+								</textBody>
+							</ipcEntry>
+							<ipcEntry kind="3" symbol="C12N0009760000" ipcLevel="C" edition="19800101" entryType="K" lang="EN">
+								<textBody>
+									<title>
+										<titlePart>
+											<text>Trypsin</text>
+										</titlePart>
+										<titlePart>
+											<text>Chymotrypsin</text>
+										</titlePart>
+									</title>
+								</textBody>
+							</ipcEntry>
+						</ipcEntry>
+						<ipcEntry kind="2" symbol="C12N0009780000" ipcLevel="C" edition="19800101" entryType="K" lang="EN">
+							<textBody>
+								<title>
+									<titlePart>
+										<text>acting on carbon to nitrogen bonds other than peptide bonds (3.5)</text>
+									</titlePart>
+								</title>
+							</textBody>
+							<ipcEntry kind="3" symbol="C12N0009800000" ipcLevel="A" edition="19800101" entryType="K" lang="EN" nocore="yes">
+								<textBody>
+									<title>
+										<titlePart>
+											<text>acting on amide bonds in linear amides</text>
+										</titlePart>
+									</title>
+								</textBody>
+								<ipcEntry kind="4" symbol="C12N0009820000" ipcLevel="A" edition="19800101" entryType="K" lang="EN" nocore="yes">
+									<textBody>
+										<title>
+											<titlePart>
+												<text>Asparaginase</text>
+											</titlePart>
+										</title>
+									</textBody>
+								</ipcEntry>
+								<ipcEntry kind="4" symbol="C12N0009840000" ipcLevel="A" edition="19800101" entryType="K" lang="EN" nocore="yes">
+									<textBody>
+										<title>
+											<titlePart>
+												<text>Penicillin amidase</text>
+											</titlePart>
+										</title>
+									</textBody>
+								</ipcEntry>
+							</ipcEntry>
+							<ipcEntry kind="3" symbol="C12N0009860000" ipcLevel="A" edition="19800101" entryType="K" lang="EN" nocore="yes">
+								<textBody>
+									<title>
+										<titlePart>
+											<text>acting on amide bonds in cyclic amides, e.g. penicillinase</text>
+										</titlePart>
+									</title>
+								</textBody>
+							</ipcEntry>
+						</ipcEntry>
+					</ipcEntry>
+					<ipcEntry kind="1" symbol="C12N0009880000" ipcLevel="C" edition="19800101" entryType="K" lang="EN">
+						<textBody>
+							<title>
+								<titlePart>
+									<text>Lyases (4.)</text>
+								</titlePart>
+							</title>
+						</textBody>
+					</ipcEntry>
+					<ipcEntry kind="1" symbol="C12N0009900000" ipcLevel="C" edition="19800101" entryType="K" lang="EN">
+						<textBody>
+							<title>
+								<titlePart>
+									<text>Isomerases (5.)</text>
+								</titlePart>
+							</title>
+						</textBody>
+						<ipcEntry kind="2" symbol="C12N0009920000" ipcLevel="A" edition="19800101" entryType="K" lang="EN" nocore="yes">
+							<textBody>
+								<title>
+									<titlePart>
+										<text>Glucose isomerase</text>
+									</titlePart>
+								</title>
+							</textBody>
+						</ipcEntry>
+					</ipcEntry>
+					<ipcEntry kind="1" symbol="C12N0009940000" ipcLevel="C" edition="19800101" entryType="K" lang="EN">
+						<textBody>
+							<title>
+								<titlePart>
+									<text>Pancreatin</text>
+								</titlePart>
+							</title>
+						</textBody>
+					</ipcEntry>
+					<ipcEntry kind="1" symbol="C12N0009960000" ipcLevel="C" edition="19800101" entryType="K" lang="EN">
+						<textBody>
+							<title>
+								<titlePart>
+									<text>Stabilising an enzyme by forming an adduct or a composition</text>
+								</titlePart>
+								<titlePart>
+									<text>Forming enzyme conjugates</text>
+								</titlePart>
+							</title>
+						</textBody>
+					</ipcEntry>
+					<ipcEntry kind="1" symbol="C12N0009980000" ipcLevel="C" edition="19800101" entryType="K" lang="EN">
+						<textBody>
+							<title>
+								<titlePart>
+									<text>Preparation of granular or free-flowing enzyme compositions</text>
+									<entryReference><sref ref="C12N0009960000"/> takes precedence</entryReference>
+								</titlePart>
+							</title>
+						</textBody>
+					</ipcEntry>
+					<ipcEntry kind="1" symbol="C12N0009990000" ipcLevel="C" edition="19800101" entryType="K" lang="EN">
+						<textBody>
+							<title>
+								<titlePart>
+									<text>Enzyme inactivation by chemical treatment</text>
+								</titlePart>
+							</title>
+						</textBody>
+					</ipcEntry>
+				</ipcEntry>
+				<ipcEntry kind="m" symbol="C12N0011000000" ipcLevel="C" edition="19800101" entryType="K" lang="EN" priorityOrder="20">
+					<textBody>
+						<title>
+							<titlePart>
+								<text>Carrier-bound or immobilised enzymes</text>
+							</titlePart>
+							<titlePart>
+								<text>Carrier-bound or immobilised microbial cells</text>
+							</titlePart>
+							<titlePart>
+								<text>Preparation thereof</text>
+							</titlePart>
+						</title>
+					</textBody>
+					<ipcEntry kind="1" symbol="C12N0011020000" ipcLevel="A" edition="19800101" entryType="K" lang="EN" nocore="yes">
+						<textBody>
+							<title>
+								<titlePart>
+									<text>Enzymes or microbial cells being immobilised on or in an organic carrier</text>
+								</titlePart>
+							</title>
+						</textBody>
+						<ipcEntry kind="2" symbol="C12N0011040000" ipcLevel="A" edition="19800101" entryType="K" lang="EN" nocore="yes">
+							<textBody>
+								<title>
+									<titlePart>
+										<text>entrapped within the carrier, e.g. gel, hollow fibre</text>
+									</titlePart>
+								</title>
+							</textBody>
+						</ipcEntry>
+						<ipcEntry kind="2" symbol="C12N0011060000" ipcLevel="A" edition="19800101" entryType="K" lang="EN" nocore="yes">
+							<textBody>
+								<title>
+									<titlePart>
+										<text>attached to the carrier <u>via</u> a bridging agent</text>
+									</titlePart>
+								</title>
+							</textBody>
+						</ipcEntry>
+						<ipcEntry kind="2" symbol="C12N0011080000" ipcLevel="A" edition="19800101" entryType="K" lang="EN" nocore="yes">
+							<textBody>
+								<title>
+									<titlePart>
+										<text>the carrier being a synthetic polymer</text>
+									</titlePart>
+								</title>
+							</textBody>
+						</ipcEntry>
+						<ipcEntry kind="2" symbol="C12N0011100000" ipcLevel="A" edition="19800101" entryType="K" lang="EN" nocore="yes">
+							<textBody>
+								<title>
+									<titlePart>
+										<text>the carrier being a carbohydrate</text>
+									</titlePart>
+								</title>
+							</textBody>
+							<ipcEntry kind="3" symbol="C12N0011120000" ipcLevel="A" edition="19800101" entryType="K" lang="EN" nocore="yes">
+								<textBody>
+									<title>
+										<titlePart>
+											<text>Cellulose or derivatives thereof</text>
+										</titlePart>
+									</title>
+								</textBody>
+							</ipcEntry>
+						</ipcEntry>
+					</ipcEntry>
+					<ipcEntry kind="1" symbol="C12N0011140000" ipcLevel="A" edition="19800101" entryType="K" lang="EN" nocore="yes">
+						<textBody>
+							<title>
+								<titlePart>
+									<text>Enzymes or microbial cells being immobilised on or in an inorganic carrier</text>
+								</titlePart>
+							</title>
+						</textBody>
+					</ipcEntry>
+					<ipcEntry kind="1" symbol="C12N0011160000" ipcLevel="A" edition="19800101" entryType="K" lang="EN" nocore="yes">
+						<textBody>
+							<title>
+								<titlePart>
+									<text>Enzymes or microbial cells being immobilised on or in a biological cell</text>
+								</titlePart>
+							</title>
+						</textBody>
+					</ipcEntry>
+					<ipcEntry kind="1" symbol="C12N0011180000" ipcLevel="A" edition="19800101" entryType="K" lang="EN" nocore="yes">
+						<textBody>
+							<title>
+								<titlePart>
+									<text>Multi-enzyme systems</text>
+								</titlePart>
+							</title>
+						</textBody>
+					</ipcEntry>
+				</ipcEntry>
+				<ipcEntry kind="m" symbol="C12N0013000000" ipcLevel="C" edition="19800101" entryType="K" lang="EN" priorityOrder="10">
+					<textBody>
+						<title>
+							<titlePart>
+								<text>Treatment of micro-organisms or enzymes with electrical or wave energy, e.g. magnetism, sonic waves</text>
+							</titlePart>
+						</title>
+					</textBody>
+				</ipcEntry>
+				<ipcEntry kind="m" symbol="C12N0015000000" ipcLevel="C" edition="19800101,19900101,19950101" entryType="K" lang="EN" priorityOrder="0">
+					<textBody>
+						<title>
+							<titlePart>
+								<text>Mutation or genetic engineering</text>
+							</titlePart>
+							<titlePart>
+								<text>DNA or RNA concerning genetic engineering, vectors, e.g. plasmids, or their isolation, preparation or purification</text>
+							</titlePart>
+							<titlePart>
+								<text>Use of hosts therefor</text>
+								<entryReference>mutants or genetically engineered micro-organisms <sref ref="C12N0001000000"/>, <sref ref="C12N0005000000"/>, <sref ref="C12N0007000000"/></entryReference>
+								<entryReference>new plants <sref ref="A01H"/></entryReference>
+								<entryReference>plant reproduction by tissue culture techniques <sref ref="A01H0004000000"/></entryReference>
+								<entryReference>new animals <sref ref="A01K0067000000"/></entryReference>
+								<entryReference>use of medicinal preparations containing genetic material which is inserted into cells of the living body to treat genetic diseases, gene therapy <sref ref="A61K0048000000"/></entryReference>
+								<entryReference>peptides in general <sref ref="C07K"/></entryReference>
+							</titlePart>
+						</title>
+					</textBody>
+					<ipcEntry kind="n" symbol="C12N0015000000" ipcLevel="C" entryType="K" lang="EN">
+						<textBody>
+							<note type="none">
+								<noteParagraph edition="19800101">
+									<text>This group <u>covers</u> processes wherein there is a modification of the genetic material which would not normally occur in nature without intervention of man which produce a change in the gene structure which is passed on to succeeding generations.<nbsp/></text>
+								</noteParagraph>
+							</note>
+						</textBody>
+					</ipcEntry>
+					<ipcEntry kind="1" symbol="C12N0015010000" ipcLevel="C" edition="19900101" entryType="K" lang="EN">
+						<textBody>
+							<title>
+								<titlePart>
+									<text>Preparation of mutants without inserting foreign genetic material therein</text>
+								</titlePart>
+								<titlePart>
+									<text>Screening processes therefor</text>
+								</titlePart>
+							</title>
+						</textBody>
+					</ipcEntry>
+					<ipcEntry kind="1" symbol="C12N0015020000" ipcLevel="C" edition="19900101" entryType="K" lang="EN">
+						<textBody>
+							<title>
+								<titlePart>
+									<text>Preparation of hybrid cells by fusion of two or more cells, e.g. protoplast fusion</text>
+								</titlePart>
+							</title>
+						</textBody>
+						<ipcEntry kind="2" symbol="C12N0015030000" ipcLevel="C" edition="19900101" entryType="K" lang="EN">
+							<textBody>
+								<title>
+									<titlePart>
+										<text>Bacteria</text>
+									</titlePart>
+								</title>
+							</textBody>
+						</ipcEntry>
+						<ipcEntry kind="2" symbol="C12N0015040000" ipcLevel="C" edition="19900101" entryType="K" lang="EN">
+							<textBody>
+								<title>
+									<titlePart>
+										<text>Fungi</text>
+									</titlePart>
+								</title>
+							</textBody>
+						</ipcEntry>
+						<ipcEntry kind="2" symbol="C12N0015050000" ipcLevel="C" edition="19900101" entryType="K" lang="EN">
+							<textBody>
+								<title>
+									<titlePart>
+										<text>Plant cells</text>
+									</titlePart>
+								</title>
+							</textBody>
+						</ipcEntry>
+						<ipcEntry kind="2" symbol="C12N0015060000" ipcLevel="C" edition="19900101" entryType="K" lang="EN">
+							<textBody>
+								<title>
+									<titlePart>
+										<text>Animal cells</text>
+									</titlePart>
+								</title>
+							</textBody>
+						</ipcEntry>
+						<ipcEntry kind="2" symbol="C12N0015070000" ipcLevel="C" edition="19900101" entryType="K" lang="EN">
+							<textBody>
+								<title>
+									<titlePart>
+										<text>Human cells</text>
+									</titlePart>
+								</title>
+							</textBody>
+						</ipcEntry>
+						<ipcEntry kind="2" symbol="C12N0015080000" ipcLevel="C" edition="19900101" entryType="K" lang="EN">
+							<textBody>
+								<title>
+									<titlePart>
+										<text>Cells resulting from interspecies fusion</text>
+									</titlePart>
+								</title>
+							</textBody>
+						</ipcEntry>
+					</ipcEntry>
+					<ipcEntry kind="1" symbol="C12N0015090000" ipcLevel="C" edition="19900101" entryType="K" lang="EN">
+						<textBody>
+							<title>
+								<titlePart>
+									<text>Recombinant DNA-technology</text>
+								</titlePart>
+							</title>
+						</textBody>
+						<ipcEntry kind="2" symbol="C12N0015100000" ipcLevel="C" edition="19900101" entryType="K" lang="EN">
+							<textBody>
+								<title>
+									<titlePart>
+										<text>Processes for the isolation, preparation or purification of DNA or RNA</text>
+										<entryReference>chemical preparation of DNA or RNA <sref ref="C07H0021000000"/></entryReference>
+										<entryReference>preparation of non-structural polynucleotides from micro-organisms or with enzymes <sref ref="C12P0019340000"/></entryReference>
+									</titlePart>
+								</title>
+							</textBody>
+						</ipcEntry>
+						<ipcEntry kind="2" symbol="C12N0015110000" ipcLevel="C" edition="19900101,20100101" entryType="K" lang="EN">
+							<textBody>
+								<title>
+									<titlePart>
+										<text>DNA or RNA fragments</text>
+									</titlePart>
+									<titlePart>
+										<text>Modified forms thereof</text>
+										<entryReference>DNA or RNA not used in recombinant technology <sref ref="C07H0021000000"/></entryReference>
+									</titlePart>
+								</title>
+							</textBody>
+							<ipcEntry kind="3" symbol="C12N0015113000" ipcLevel="C" edition="20100101" entryType="K" lang="EN">
+								<textBody>
+									<title>
+										<titlePart>
+											<text>Non-coding nucleic acids modulating the expression of genes, e.g. antisense oligonucleotides</text>
+										</titlePart>
+									</title>
+								</textBody>
+							</ipcEntry>
+							<ipcEntry kind="3" symbol="C12N0015115000" ipcLevel="C" edition="20100101" entryType="K" lang="EN">
+								<textBody>
+									<title>
+										<titlePart>
+											<text>Aptamers, i.e. nucleic acids binding a target molecule specifically and with high affinity without hybridising therewith</text>
+										</titlePart>
+									</title>
+								</textBody>
+							</ipcEntry>
+							<ipcEntry kind="3" symbol="C12N0015117000" ipcLevel="C" edition="20100101" entryType="K" lang="EN">
+								<textBody>
+									<title>
+										<titlePart>
+											<text>Nucleic acids having immunomodulatory properties, e.g. containing CpG-motifs</text>
+										</titlePart>
+									</title>
+								</textBody>
+							</ipcEntry>
+							<ipcEntry kind="3" symbol="C12N0015120000" ipcLevel="C" edition="19900101" entryType="K" lang="EN">
+								<textBody>
+									<title>
+										<titlePart>
+											<text>Genes encoding animal proteins</text>
+										</titlePart>
+									</title>
+								</textBody>
+								<ipcEntry kind="4" symbol="C12N0015130000" ipcLevel="C" edition="19900101" entryType="K" lang="EN">
+									<textBody>
+										<title>
+											<titlePart>
+												<text>Immunoglobulins</text>
+											</titlePart>
+										</title>
+									</textBody>
+								</ipcEntry>
+								<ipcEntry kind="4" symbol="C12N0015140000" ipcLevel="C" edition="19900101" entryType="K" lang="EN">
+									<textBody>
+										<title>
+											<titlePart>
+												<text>Human serum albumins</text>
+											</titlePart>
+										</title>
+									</textBody>
+								</ipcEntry>
+								<ipcEntry kind="4" symbol="C12N0015150000" ipcLevel="C" edition="19900101" entryType="K" lang="EN">
+									<textBody>
+										<title>
+											<titlePart>
+												<text>Protease inhibitors, e.g. antithrombin, antitrypsin, hirudin</text>
+											</titlePart>
+										</title>
+									</textBody>
+								</ipcEntry>
+								<ipcEntry kind="4" symbol="C12N0015160000" ipcLevel="C" edition="19900101" entryType="K" lang="EN">
+									<textBody>
+										<title>
+											<titlePart>
+												<text>Hormones</text>
+											</titlePart>
+										</title>
+									</textBody>
+									<ipcEntry kind="5" symbol="C12N0015170000" ipcLevel="A" edition="19900101" entryType="K" lang="EN" nocore="yes">
+										<textBody>
+											<title>
+												<titlePart>
+													<text>Insulins</text>
+												</titlePart>
+											</title>
+										</textBody>
+									</ipcEntry>
+									<ipcEntry kind="5" symbol="C12N0015180000" ipcLevel="A" edition="19900101" entryType="K" lang="EN" nocore="yes">
+										<textBody>
+											<title>
+												<titlePart>
+													<text>Growth hormones</text>
+												</titlePart>
+											</title>
+										</textBody>
+									</ipcEntry>
+								</ipcEntry>
+								<ipcEntry kind="4" symbol="C12N0015190000" ipcLevel="C" edition="19900101" entryType="K" lang="EN">
+									<textBody>
+										<title>
+											<titlePart>
+												<text>Interferons</text>
+											</titlePart>
+											<titlePart>
+												<text>Lymphokines</text>
+											</titlePart>
+											<titlePart>
+												<text>Cytokines</text>
+											</titlePart>
+										</title>
+									</textBody>
+									<ipcEntry kind="5" symbol="C12N0015200000" ipcLevel="A" edition="19900101" entryType="K" lang="EN" nocore="yes">
+										<textBody>
+											<title>
+												<titlePart>
+													<text>Interferons</text>
+												</titlePart>
+											</title>
+										</textBody>
+										<ipcEntry kind="6" symbol="C12N0015210000" ipcLevel="A" edition="19900101" entryType="K" lang="EN" nocore="yes">
+											<textBody>
+												<title>
+													<titlePart>
+														<text>Alpha-interferons</text>
+													</titlePart>
+												</title>
+											</textBody>
+										</ipcEntry>
+										<ipcEntry kind="6" symbol="C12N0015220000" ipcLevel="A" edition="19900101" entryType="K" lang="EN" nocore="yes">
+											<textBody>
+												<title>
+													<titlePart>
+														<text>Beta-interferons</text>
+													</titlePart>
+												</title>
+											</textBody>
+										</ipcEntry>
+										<ipcEntry kind="6" symbol="C12N0015230000" ipcLevel="A" edition="19900101" entryType="K" lang="EN" nocore="yes">
+											<textBody>
+												<title>
+													<titlePart>
+														<text>Gamma-interferons</text>
+													</titlePart>
+												</title>
+											</textBody>
+										</ipcEntry>
+									</ipcEntry>
+									<ipcEntry kind="5" symbol="C12N0015240000" ipcLevel="A" edition="19900101" entryType="K" lang="EN" nocore="yes">
+										<textBody>
+											<title>
+												<titlePart>
+													<text>Interleukins</text>
+												</titlePart>
+											</title>
+										</textBody>
+										<ipcEntry kind="6" symbol="C12N0015250000" ipcLevel="A" edition="19900101" entryType="K" lang="EN" nocore="yes">
+											<textBody>
+												<title>
+													<titlePart>
+														<text>Interleukin-1</text>
+													</titlePart>
+												</title>
+											</textBody>
+										</ipcEntry>
+										<ipcEntry kind="6" symbol="C12N0015260000" ipcLevel="A" edition="19900101" entryType="K" lang="EN" nocore="yes">
+											<textBody>
+												<title>
+													<titlePart>
+														<text>Interleukin-2</text>
+													</titlePart>
+												</title>
+											</textBody>
+										</ipcEntry>
+									</ipcEntry>
+									<ipcEntry kind="5" symbol="C12N0015270000" ipcLevel="A" edition="19900101" entryType="K" lang="EN" nocore="yes">
+										<textBody>
+											<title>
+												<titlePart>
+													<text>Colony stimulating factors</text>
+												</titlePart>
+											</title>
+										</textBody>
+									</ipcEntry>
+									<ipcEntry kind="5" symbol="C12N0015280000" ipcLevel="A" edition="19900101" entryType="K" lang="EN" nocore="yes">
+										<textBody>
+											<title>
+												<titlePart>
+													<text>Tumor necrosis factors</text>
+												</titlePart>
+											</title>
+										</textBody>
+									</ipcEntry>
+								</ipcEntry>
+							</ipcEntry>
+							<ipcEntry kind="3" symbol="C12N0015290000" ipcLevel="C" edition="19900101" entryType="K" lang="EN">
+								<textBody>
+									<title>
+										<titlePart>
+											<text>Genes encoding plant proteins, e.g. thaumatin</text>
+										</titlePart>
+									</title>
+								</textBody>
+							</ipcEntry>
+							<ipcEntry kind="3" symbol="C12N0015300000" ipcLevel="C" edition="19900101" entryType="K" lang="EN">
+								<textBody>
+									<title>
+										<titlePart>
+											<text>Genes encoding protozoal proteins, e.g. from Plasmodium, Trypanosoma, Eimeria</text>
+										</titlePart>
+									</title>
+								</textBody>
+							</ipcEntry>
+							<ipcEntry kind="3" symbol="C12N0015310000" ipcLevel="C" edition="19900101" entryType="K" lang="EN">
+								<textBody>
+									<title>
+										<titlePart>
+											<text>Genes encoding microbial proteins, e.g. enterotoxins</text>
+										</titlePart>
+									</title>
+								</textBody>
+								<ipcEntry kind="4" symbol="C12N0015320000" ipcLevel="C" edition="19900101" entryType="K" lang="EN">
+									<textBody>
+										<title>
+											<titlePart>
+												<text>Bacillus crystal proteins</text>
+											</titlePart>
+										</title>
+									</textBody>
+								</ipcEntry>
+								<ipcEntry kind="4" symbol="C12N0015330000" ipcLevel="C" edition="19900101" entryType="K" lang="EN">
+									<textBody>
+										<title>
+											<titlePart>
+												<text>Genes encoding viral proteins</text>
+											</titlePart>
+										</title>
+									</textBody>
+									<ipcEntry kind="5" symbol="C12N0015340000" ipcLevel="C" edition="19900101" entryType="K" lang="EN">
+										<textBody>
+											<title>
+												<titlePart>
+													<text>Proteins from DNA viruses</text>
+												</titlePart>
+											</title>
+										</textBody>
+										<ipcEntry kind="6" symbol="C12N0015350000" ipcLevel="A" edition="19900101" entryType="K" lang="EN" nocore="yes">
+											<textBody>
+												<title>
+													<titlePart>
+														<text>Parvoviridae, e.g. feline panleukopenia virus, human parvovirus</text>
+													</titlePart>
+												</title>
+											</textBody>
+										</ipcEntry>
+										<ipcEntry kind="6" symbol="C12N0015360000" ipcLevel="A" edition="19900101" entryType="K" lang="EN" nocore="yes">
+											<textBody>
+												<title>
+													<titlePart>
+														<text>Hepadnaviridae</text>
+													</titlePart>
+												</title>
+											</textBody>
+										</ipcEntry>
+										<ipcEntry kind="6" symbol="C12N0015370000" ipcLevel="A" edition="19900101" entryType="K" lang="EN" nocore="yes">
+											<textBody>
+												<title>
+													<titlePart>
+														<text>Papovaviridae, e.g. papillomaviruses, polyomavirus, SV40</text>
+													</titlePart>
+												</title>
+											</textBody>
+										</ipcEntry>
+										<ipcEntry kind="6" symbol="C12N0015380000" ipcLevel="A" edition="19900101" entryType="K" lang="EN" nocore="yes">
+											<textBody>
+												<title>
+													<titlePart>
+														<text>Herpetoviridae, e.g. herpes simplex virus, varicella-zoster virus, Epstein-Barr virus, cytomegalovirus, pseudorabies virus</text>
+													</titlePart>
+												</title>
+											</textBody>
+										</ipcEntry>
+										<ipcEntry kind="6" symbol="C12N0015390000" ipcLevel="A" edition="19900101" entryType="K" lang="EN" nocore="yes">
+											<textBody>
+												<title>
+													<titlePart>
+														<text>Poxviridae, e.g. vaccinia virus, variola virus</text>
+													</titlePart>
+												</title>
+											</textBody>
+										</ipcEntry>
+									</ipcEntry>
+									<ipcEntry kind="5" symbol="C12N0015400000" ipcLevel="C" edition="19900101" entryType="K" lang="EN">
+										<textBody>
+											<title>
+												<titlePart>
+													<text>Proteins from RNA viruses, e.g. flaviviruses</text>
+												</titlePart>
+											</title>
+										</textBody>
+										<ipcEntry kind="6" symbol="C12N0015410000" ipcLevel="A" edition="19900101" entryType="K" lang="EN" nocore="yes">
+											<textBody>
+												<title>
+													<titlePart>
+														<text>Picornaviridae, e.g. rhinovirus, coxsackie viruses, echoviruses, enteroviruses</text>
+													</titlePart>
+												</title>
+											</textBody>
+											<ipcEntry kind="7" symbol="C12N0015420000" ipcLevel="A" edition="19900101" entryType="K" lang="EN" nocore="yes">
+												<textBody>
+													<title>
+														<titlePart>
+															<text>Foot-and-mouth disease virus</text>
+														</titlePart>
+													</title>
+												</textBody>
+											</ipcEntry>
+											<ipcEntry kind="7" symbol="C12N0015430000" ipcLevel="A" edition="19900101" entryType="K" lang="EN" nocore="yes">
+												<textBody>
+													<title>
+														<titlePart>
+															<text>Poliovirus</text>
+														</titlePart>
+													</title>
+												</textBody>
+											</ipcEntry>
+										</ipcEntry>
+										<ipcEntry kind="6" symbol="C12N0015440000" ipcLevel="A" edition="19900101" entryType="K" lang="EN" nocore="yes">
+											<textBody>
+												<title>
+													<titlePart>
+														<text>Orthomyxoviridae, e.g. influenza virus</text>
+													</titlePart>
+												</title>
+											</textBody>
+										</ipcEntry>
+										<ipcEntry kind="6" symbol="C12N0015450000" ipcLevel="A" edition="19900101" entryType="K" lang="EN" nocore="yes">
+											<textBody>
+												<title>
+													<titlePart>
+														<text>Paramyxoviridae, e.g. measles virus, mumps virus, Newcastle disease virus, canine distemper virus, rinderpest virus, respiratory syncytial viruses</text>
+													</titlePart>
+												</title>
+											</textBody>
+										</ipcEntry>
+										<ipcEntry kind="6" symbol="C12N0015460000" ipcLevel="A" edition="19900101" entryType="K" lang="EN" nocore="yes">
+											<textBody>
+												<title>
+													<titlePart>
+														<text>Reoviridae, e.g. rotavirus, bluetongue virus, Colorado tick fever virus</text>
+													</titlePart>
+												</title>
+											</textBody>
+										</ipcEntry>
+										<ipcEntry kind="6" symbol="C12N0015470000" ipcLevel="A" edition="19900101" entryType="K" lang="EN" nocore="yes">
+											<textBody>
+												<title>
+													<titlePart>
+														<text>Rhabdoviridae, e.g. rabies viruses, vesicular stomatitis virus</text>
+													</titlePart>
+												</title>
+											</textBody>
+										</ipcEntry>
+										<ipcEntry kind="6" symbol="C12N0015480000" ipcLevel="A" edition="19900101" entryType="K" lang="EN" nocore="yes">
+											<textBody>
+												<title>
+													<titlePart>
+														<text>Retroviridae, e.g. bovine leukaemia virus, feline leukaemia virus</text>
+													</titlePart>
+												</title>
+											</textBody>
+											<ipcEntry kind="7" symbol="C12N0015490000" ipcLevel="A" edition="19900101" entryType="K" lang="EN" nocore="yes">
+												<textBody>
+													<title>
+														<titlePart>
+															<text>Lentiviridae, e.g. immunodeficiency viruses such as HIV, visna-maedi virus, equine infectious anaemia virus</text>
+														</titlePart>
+													</title>
+												</textBody>
+											</ipcEntry>
+										</ipcEntry>
+										<ipcEntry kind="6" symbol="C12N0015500000" ipcLevel="A" edition="19900101" entryType="K" lang="EN" nocore="yes">
+											<textBody>
+												<title>
+													<titlePart>
+														<text>Coronaviridae, e.g. infectious bronchitis virus, transmissible gastroenteritis virus</text>
+													</titlePart>
+												</title>
+											</textBody>
+										</ipcEntry>
+									</ipcEntry>
+									<ipcEntry kind="5" symbol="C12N0015510000" ipcLevel="C" edition="19900101" entryType="K" lang="EN">
+										<textBody>
+											<title>
+												<titlePart>
+													<text>Hepatitis viruses</text>
+												</titlePart>
+											</title>
+										</textBody>
+									</ipcEntry>
+								</ipcEntry>
+							</ipcEntry>
+							<ipcEntry kind="3" symbol="C12N0015520000" ipcLevel="C" edition="19900101" entryType="K" lang="EN">
+								<textBody>
+									<title>
+										<titlePart>
+											<text>Genes encoding for enzymes or proenzymes</text>
+										</titlePart>
+									</title>
+								</textBody>
+								<ipcEntry kind="n" symbol="C12N0015520000" ipcLevel="C" entryType="K" lang="EN">
+									<textBody>
+										<note type="none">
+											<noteParagraph>
+												<text>In this group:</text>
+												<subnote type="bullet">
+													<noteParagraph>
+														<text>genes encoding for proenzymes are classified with the corresponding genes encoding enzymes;</text>
+													</noteParagraph>
+													<noteParagraph edition="19900101">
+														<text>enzymes are generally categorised according to the "Nomenclature and Classification of Enzymes" of the International Commission on Enzymes. Where appropriate, this designation appears in the groups below in parenthesis.<nbsp/></text>
+													</noteParagraph>
+												</subnote>
+											</noteParagraph>
+										</note>
+									</textBody>
+								</ipcEntry>
+								<ipcEntry kind="4" symbol="C12N0015530000" ipcLevel="C" edition="19900101" entryType="K" lang="EN">
+									<textBody>
+										<title>
+											<titlePart>
+												<text>Oxidoreductases (1)</text>
+											</titlePart>
+										</title>
+									</textBody>
+								</ipcEntry>
+								<ipcEntry kind="4" symbol="C12N0015540000" ipcLevel="C" edition="19900101" entryType="K" lang="EN">
+									<textBody>
+										<title>
+											<titlePart>
+												<text>Transferases (2)</text>
+											</titlePart>
+										</title>
+									</textBody>
+								</ipcEntry>
+								<ipcEntry kind="4" symbol="C12N0015550000" ipcLevel="C" edition="19900101" entryType="K" lang="EN">
+									<textBody>
+										<title>
+											<titlePart>
+												<text>Hydrolases (3)</text>
+											</titlePart>
+										</title>
+									</textBody>
+									<ipcEntry kind="5" symbol="C12N0015560000" ipcLevel="C" edition="19900101" entryType="K" lang="EN">
+										<textBody>
+											<title>
+												<titlePart>
+													<text>acting on glycosyl compounds (3.2), e.g. amylase, galactosidase, lysozyme</text>
+												</titlePart>
+											</title>
+										</textBody>
+									</ipcEntry>
+									<ipcEntry kind="5" symbol="C12N0015570000" ipcLevel="C" edition="19900101" entryType="K" lang="EN">
+										<textBody>
+											<title>
+												<titlePart>
+													<text>acting on peptide bonds (3.4)</text>
+												</titlePart>
+											</title>
+										</textBody>
+										<ipcEntry kind="6" symbol="C12N0015580000" ipcLevel="A" edition="19900101" entryType="K" lang="EN" nocore="yes">
+											<textBody>
+												<title>
+													<titlePart>
+														<text>Plasminogen activators, e.g. urokinase, TPA</text>
+													</titlePart>
+												</title>
+											</textBody>
+										</ipcEntry>
+										<ipcEntry kind="6" symbol="C12N0015590000" ipcLevel="A" edition="19900101" entryType="K" lang="EN" nocore="yes">
+											<textBody>
+												<title>
+													<titlePart>
+														<text>Chymosin</text>
+													</titlePart>
+												</title>
+											</textBody>
+										</ipcEntry>
+									</ipcEntry>
+								</ipcEntry>
+								<ipcEntry kind="4" symbol="C12N0015600000" ipcLevel="C" edition="19900101" entryType="K" lang="EN">
+									<textBody>
+										<title>
+											<titlePart>
+												<text>Lyases (4)</text>
+											</titlePart>
+										</title>
+									</textBody>
+								</ipcEntry>
+								<ipcEntry kind="4" symbol="C12N0015610000" ipcLevel="C" edition="19900101" entryType="K" lang="EN">
+									<textBody>
+										<title>
+											<titlePart>
+												<text>Isomerases (5)</text>
+											</titlePart>
+										</title>
+									</textBody>
+								</ipcEntry>
+							</ipcEntry>
+							<ipcEntry kind="3" symbol="C12N0015620000" ipcLevel="C" edition="19900101" entryType="K" lang="EN">
+								<textBody>
+									<title>
+										<titlePart>
+											<text>DNA sequences coding for fusion proteins</text>
+										</titlePart>
+									</title>
+								</textBody>
+								<ipcEntry kind="n" symbol="C12N0015620000" ipcLevel="C" entryType="K" lang="EN">
+									<textBody>
+										<note type="none">
+											<noteParagraph>
+												<text>In this group, the following term is used with the meaning indicated:</text>
+												<subnote type="bullet">
+													<noteParagraph edition="19900101">
+														<text>"fusion" means the fusion of two different proteins.<nbsp/></text>
+													</noteParagraph>
+												</subnote>
+											</noteParagraph>
+										</note>
+									</textBody>
+								</ipcEntry>
+							</ipcEntry>
+						</ipcEntry>
+						<ipcEntry kind="2" symbol="C12N0015630000" ipcLevel="C" edition="19900101" entryType="K" lang="EN">
+							<textBody>
+								<title>
+									<titlePart>
+										<text>Introduction of foreign genetic material using vectors</text>
+									</titlePart>
+									<titlePart>
+										<text>Vectors</text>
+									</titlePart>
+									<titlePart>
+										<text>Use of hosts therefor</text>
+									</titlePart>
+									<titlePart>
+										<text>Regulation of expression</text>
+									</titlePart>
+								</title>
+							</textBody>
+							<ipcEntry kind="3" symbol="C12N0015640000" ipcLevel="C" edition="19900101" entryType="K" lang="EN">
+								<textBody>
+									<title>
+										<titlePart>
+											<text>General methods for preparing the vector, for introducing it into the cell or for selecting the vector-containing host</text>
+										</titlePart>
+									</title>
+								</textBody>
+							</ipcEntry>
+							<ipcEntry kind="3" symbol="C12N0015650000" ipcLevel="C" edition="19900101" entryType="K" lang="EN">
+								<textBody>
+									<title>
+										<titlePart>
+											<text>using markers</text>
+											<entryReference>enzymes used as markers <sref ref="C12N0015520000"/></entryReference>
+										</titlePart>
+									</title>
+								</textBody>
+							</ipcEntry>
+							<ipcEntry kind="3" symbol="C12N0015660000" ipcLevel="C" edition="19900101" entryType="K" lang="EN">
+								<textBody>
+									<title>
+										<titlePart>
+											<text>General methods for inserting a gene into a vector to form a recombinant vector using cleavage and ligation</text>
+										</titlePart>
+										<titlePart>
+											<text>Use of non-functional linkers or adaptors, e.g. linkers containing the sequence for a restriction endonuclease</text>
+										</titlePart>
+									</title>
+								</textBody>
+								<ipcEntry kind="n" symbol="C12N0015660000" ipcLevel="C" entryType="K" lang="EN">
+									<textBody>
+										<note type="none">
+											<noteParagraph>
+												<text>In this group, the following expression is used with the meaning indicated:</text>
+												<subnote type="bullet">
+													<noteParagraph edition="19900101">
+														<text>"non-functional linkers" means DNA sequences which are used to link DNA sequences and which have no known function of structural gene or regulating function.<nbsp/></text>
+													</noteParagraph>
+												</subnote>
+											</noteParagraph>
+										</note>
+									</textBody>
+								</ipcEntry>
+							</ipcEntry>
+							<ipcEntry kind="3" symbol="C12N0015670000" ipcLevel="C" edition="19900101" entryType="K" lang="EN">
+								<textBody>
+									<title>
+										<titlePart>
+											<text>General methods for enhancing the expression</text>
+										</titlePart>
+									</title>
+								</textBody>
+								<ipcEntry kind="4" symbol="C12N0015680000" ipcLevel="A" edition="19900101" entryType="K" lang="EN" nocore="yes">
+									<textBody>
+										<title>
+											<titlePart>
+												<text>Stabilisation of the vector</text>
+											</titlePart>
+										</title>
+									</textBody>
+								</ipcEntry>
+								<ipcEntry kind="4" symbol="C12N0015690000" ipcLevel="A" edition="19900101" entryType="K" lang="EN" nocore="yes">
+									<textBody>
+										<title>
+											<titlePart>
+												<text>Increasing the copy number of the vector</text>
+											</titlePart>
+										</title>
+									</textBody>
+								</ipcEntry>
+							</ipcEntry>
+							<ipcEntry kind="3" symbol="C12N0015700000" ipcLevel="C" edition="19900101" entryType="K" lang="EN">
+								<textBody>
+									<title>
+										<titlePart>
+											<text>Vectors or expression systems specially adapted for E. coli</text>
+										</titlePart>
+									</title>
+								</textBody>
+								<ipcEntry kind="n" symbol="C12N0015700000" ipcLevel="C" entryType="K" lang="EN">
+									<textBody>
+										<note type="number">
+											<noteParagraph edition="19900101">
+												<text>This group <u>covers</u> the use of E. coli as host.<nbsp/></text>
+											</noteParagraph>
+											<noteParagraph edition="19900101">
+												<text>Shuttle vectors also replicating in E. coli are classified according to the other host.<nbsp/></text>
+											</noteParagraph>
+										</note>
+									</textBody>
+								</ipcEntry>
+								<ipcEntry kind="4" symbol="C12N0015710000" ipcLevel="C" edition="19900101" entryType="K" lang="EN">
+									<textBody>
+										<title>
+											<titlePart>
+												<text>Expression systems using regulatory sequences derived from the trp-operon</text>
+											</titlePart>
+										</title>
+									</textBody>
+								</ipcEntry>
+								<ipcEntry kind="4" symbol="C12N0015720000" ipcLevel="C" edition="19900101" entryType="K" lang="EN">
+									<textBody>
+										<title>
+											<titlePart>
+												<text>Expression systems using regulatory sequences derived from the lac-operon</text>
+											</titlePart>
+										</title>
+									</textBody>
+								</ipcEntry>
+								<ipcEntry kind="4" symbol="C12N0015730000" ipcLevel="C" edition="19900101" entryType="K" lang="EN">
+									<textBody>
+										<title>
+											<titlePart>
+												<text>Expression systems using phage lambda regulatory sequences</text>
+											</titlePart>
+										</title>
+									</textBody>
+								</ipcEntry>
+							</ipcEntry>
+							<ipcEntry kind="3" symbol="C12N0015740000" ipcLevel="C" edition="19900101" entryType="K" lang="EN">
+								<textBody>
+									<title>
+										<titlePart>
+											<text>Vectors or expression systems specially adapted for prokaryotic hosts other than E. coli, e.g. Lactobacillus, Micromonospora</text>
+										</titlePart>
+									</title>
+								</textBody>
+								<ipcEntry kind="n" symbol="C12N0015740000" ipcLevel="C" entryType="K" lang="EN">
+									<textBody>
+										<note type="none">
+											<noteParagraph edition="19900101">
+												<text>This group <u>covers</u> the use of prokaryotes as hosts.<nbsp/></text>
+											</noteParagraph>
+										</note>
+									</textBody>
+								</ipcEntry>
+								<ipcEntry kind="4" symbol="C12N0015750000" ipcLevel="A" edition="19900101" entryType="K" lang="EN" nocore="yes">
+									<textBody>
+										<title>
+											<titlePart>
+												<text>for Bacillus</text>
+											</titlePart>
+										</title>
+									</textBody>
+								</ipcEntry>
+								<ipcEntry kind="4" symbol="C12N0015760000" ipcLevel="A" edition="19900101" entryType="K" lang="EN" nocore="yes">
+									<textBody>
+										<title>
+											<titlePart>
+												<text>for Actinomyces</text>
+											</titlePart>
+											<titlePart>
+												<text>for Streptomyces</text>
+											</titlePart>
+										</title>
+									</textBody>
+								</ipcEntry>
+								<ipcEntry kind="4" symbol="C12N0015770000" ipcLevel="A" edition="19900101" entryType="K" lang="EN" nocore="yes">
+									<textBody>
+										<title>
+											<titlePart>
+												<text>for Corynebacterium</text>
+											</titlePart>
+											<titlePart>
+												<text>for Brevibacterium</text>
+											</titlePart>
+										</title>
+									</textBody>
+								</ipcEntry>
+								<ipcEntry kind="4" symbol="C12N0015780000" ipcLevel="A" edition="19900101" entryType="K" lang="EN" nocore="yes">
+									<textBody>
+										<title>
+											<titlePart>
+												<text>for Pseudomonas</text>
+											</titlePart>
+										</title>
+									</textBody>
+								</ipcEntry>
+							</ipcEntry>
+							<ipcEntry kind="3" symbol="C12N0015790000" ipcLevel="C" edition="19900101" entryType="K" lang="EN">
+								<textBody>
+									<title>
+										<titlePart>
+											<text>Vectors or expression systems specially adapted for eukaryotic hosts</text>
+										</titlePart>
+									</title>
+								</textBody>
+								<ipcEntry kind="n" symbol="C12N0015790000" ipcLevel="C" entryType="K" lang="EN">
+									<textBody>
+										<note type="none">
+											<noteParagraph edition="19900101">
+												<text>This group <u>covers</u> the use of eukaryotes as hosts.<nbsp/></text>
+											</noteParagraph>
+										</note>
+									</textBody>
+								</ipcEntry>
+								<ipcEntry kind="4" symbol="C12N0015800000" ipcLevel="C" edition="19900101" entryType="K" lang="EN">
+									<textBody>
+										<title>
+											<titlePart>
+												<text>for fungi</text>
+											</titlePart>
+										</title>
+									</textBody>
+									<ipcEntry kind="5" symbol="C12N0015810000" ipcLevel="C" edition="19900101" entryType="K" lang="EN">
+										<textBody>
+											<title>
+												<titlePart>
+													<text>for yeasts</text>
+												</titlePart>
+											</title>
+										</textBody>
+									</ipcEntry>
+								</ipcEntry>
+								<ipcEntry kind="4" symbol="C12N0015820000" ipcLevel="C" edition="19900101" entryType="K" lang="EN">
+									<textBody>
+										<title>
+											<titlePart>
+												<text>for plant cells</text>
+											</titlePart>
+										</title>
+									</textBody>
+									<ipcEntry kind="5" symbol="C12N0015830000" ipcLevel="C" edition="19900101" entryType="K" lang="EN">
+										<textBody>
+											<title>
+												<titlePart>
+													<text>Viral vectors, e.g. cauliflower mosaic virus</text>
+												</titlePart>
+											</title>
+										</textBody>
+									</ipcEntry>
+									<ipcEntry kind="5" symbol="C12N0015840000" ipcLevel="C" edition="19900101" entryType="K" lang="EN">
+										<textBody>
+											<title>
+												<titlePart>
+													<text>Ti-plasmids</text>
+												</titlePart>
+											</title>
+										</textBody>
+									</ipcEntry>
+								</ipcEntry>
+								<ipcEntry kind="4" symbol="C12N0015850000" ipcLevel="C" edition="19900101" entryType="K" lang="EN">
+									<textBody>
+										<title>
+											<titlePart>
+												<text>for animal cells</text>
+											</titlePart>
+										</title>
+									</textBody>
+									<ipcEntry kind="5" symbol="C12N0015860000" ipcLevel="C" edition="19900101" entryType="K" lang="EN">
+										<textBody>
+											<title>
+												<titlePart>
+													<text>Viral vectors</text>
+												</titlePart>
+											</title>
+										</textBody>
+										<ipcEntry kind="6" symbol="C12N0015861000" ipcLevel="C" edition="20000101" entryType="K" lang="EN">
+											<textBody>
+												<title>
+													<titlePart>
+														<text>Adenoviral vectors</text>
+													</titlePart>
+												</title>
+											</textBody>
+										</ipcEntry>
+										<ipcEntry kind="6" symbol="C12N0015863000" ipcLevel="C" edition="20000101" entryType="K" lang="EN">
+											<textBody>
+												<title>
+													<titlePart>
+														<text>Poxviral vectors, e.g. vaccinia virus</text>
+													</titlePart>
+												</title>
+											</textBody>
+										</ipcEntry>
+										<ipcEntry kind="6" symbol="C12N0015864000" ipcLevel="C" edition="20000101" entryType="K" lang="EN">
+											<textBody>
+												<title>
+													<titlePart>
+														<text>Parvoviral vectors</text>
+													</titlePart>
+												</title>
+											</textBody>
+										</ipcEntry>
+										<ipcEntry kind="6" symbol="C12N0015866000" ipcLevel="C" edition="20000101" entryType="K" lang="EN">
+											<textBody>
+												<title>
+													<titlePart>
+														<text>Baculoviral vectors</text>
+													</titlePart>
+												</title>
+											</textBody>
+										</ipcEntry>
+										<ipcEntry kind="6" symbol="C12N0015867000" ipcLevel="C" edition="20000101" entryType="K" lang="EN">
+											<textBody>
+												<title>
+													<titlePart>
+														<text>Retroviral vectors</text>
+													</titlePart>
+												</title>
+											</textBody>
+										</ipcEntry>
+										<ipcEntry kind="6" symbol="C12N0015869000" ipcLevel="C" edition="20000101" entryType="K" lang="EN">
+											<textBody>
+												<title>
+													<titlePart>
+														<text>Herpesviral vectors</text>
+													</titlePart>
+												</title>
+											</textBody>
+										</ipcEntry>
+									</ipcEntry>
+								</ipcEntry>
+							</ipcEntry>
+						</ipcEntry>
+						<ipcEntry kind="2" symbol="C12N0015870000" ipcLevel="C" edition="19900101" entryType="K" lang="EN">
+							<textBody>
+								<title>
+									<titlePart>
+										<text>Introduction of foreign genetic material using processes not otherwise provided for, e.g. co-transformation</text>
+									</titlePart>
+								</title>
+							</textBody>
+							<ipcEntry kind="3" symbol="C12N0015873000" ipcLevel="C" edition="20100101" entryType="K" lang="EN">
+								<textBody>
+									<title>
+										<titlePart>
+											<text>Techniques for producing new embryos, e.g. nuclear transfer, manipulation of totipotent cells or production of chimeric embryos</text>
+										</titlePart>
+									</title>
+								</textBody>
+								<ipcEntry kind="4" symbol="C12N0015877000" ipcLevel="C" edition="20100101" entryType="K" lang="EN">
+									<textBody>
+										<title>
+											<titlePart>
+												<text>Techniques for producing new mammalian cloned embryos</text>
+											</titlePart>
+										</title>
+									</textBody>
+								</ipcEntry>
+							</ipcEntry>
+							<ipcEntry kind="3" symbol="C12N0015880000" ipcLevel="A" edition="19900101" entryType="K" lang="EN" nocore="yes">
+								<textBody>
+									<title>
+										<titlePart>
+											<text>using micro-encapsulation, e.g. using liposome vesicle</text>
+										</titlePart>
+									</title>
+								</textBody>
+							</ipcEntry>
+							<ipcEntry kind="3" symbol="C12N0015890000" ipcLevel="A" edition="19900101" entryType="K" lang="EN" nocore="yes">
+								<textBody>
+									<title>
+										<titlePart>
+											<text>using micro-injection</text>
+										</titlePart>
+									</title>
+								</textBody>
+							</ipcEntry>
+							<ipcEntry kind="3" symbol="C12N0015900000" ipcLevel="A" edition="19900101" entryType="K" lang="EN" nocore="yes">
+								<textBody>
+									<title>
+										<titlePart>
+											<text>Stable introduction of foreign DNA into chromosome</text>
+										</titlePart>
+									</title>
+								</textBody>
+							</ipcEntry>
+						</ipcEntry>
+					</ipcEntry>
+				</ipcEntry>
+			</ipcEntry>
+		</ipcEntry>
+	</ipcEntry>
+</ipcEntries>
