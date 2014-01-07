@@ -31,11 +31,11 @@ def recursiveCreateCategories(category, parentName):
         return
 
     if not category.children:
-        createCategory("Category:"+category.symbol + ". " + category.title, ". " + parentName)
+        createCategory("Category:"+category.symbol + ". " + category.title, parentName)
     else:
-        createCategory("Category:"+category.symbol + ". " + category.title, ". " + parentName)
+        createCategory("Category:"+category.symbol + ". " + category.title, parentName)
         for i in category.children:
-            recursiveCreateCategories(i, category.title)
+            recursiveCreateCategories(i, category.symbol + ". " + category.title)
 
 #PHASE 1 - BUILDING CATEGORY PAGES
 ipc = IpcParser()
