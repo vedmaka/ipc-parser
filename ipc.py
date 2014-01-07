@@ -112,7 +112,7 @@ COLLATE utf8_general_ci;
                         "level": 2,
                         "word": titlePart[:255],
                         "code": entry.symbol,
-                        "category": entry.title[:512]
+                        "category": entry.title[:235]
                     })
                 #level 3
                 for entry3 in entry.children:
@@ -121,7 +121,7 @@ COLLATE utf8_general_ci;
                         "level": 3,
                         "word": titlePart[:255],
                         "code": entry3.symbol,
-                        "category": entry3.title[:512]
+                        "category": entry3.title[:235]
                         })
                     #level 4
                     for entry4 in entry3.children:
@@ -130,7 +130,7 @@ COLLATE utf8_general_ci;
                             "level": 4,
                             "word": titlePart[:255],
                             "code": entry4.symbol,
-                            "category": entry4.title[:512]
+                            "category": entry4.title[:235]
                             })
                         '''#level 5 wtfwtf
                         for entry5 in entry4.children:

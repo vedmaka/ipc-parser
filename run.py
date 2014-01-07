@@ -10,9 +10,6 @@ import sys
 import mwclient
 import mwparserfromhell as mwp
 from ipc import IpcParser
-from collections import Counter
-import re
-
 
 def createCategory(name, parent):
     category = pywikibot.Page(pywikibot.getSite(), name)
@@ -47,38 +44,51 @@ entries = ipc.parse('ipcr.xml')
 #
 #PHASE 2 BUILDING INDEXES and
 ipc.build_indexes('localhost', 'ipc', 'mysql', 'mysql')
-wf = mwclient.Site('en.wikioffuture.org')
+wf = mwclient.Site('dokuwiki.wikivote.ru', '/')
 
+# PHASE 3 ADDING CATEGORIES TO WIKIPAGE #Category: EU Awards
+for page in wf.Categories['EU Awards']:
 
-# PHASE 3 ADDING CATEGORIES TO WIKIPAGE
-page = wf.Pages['Agriculture and Empire in the High-Altitude Atacama Desert']
-pageText = page.edit()
-parsed = mwp.parse(pageText)
-template = parsed.filter_templates()[0]
-
-abstract = template.get('Abstract').value.lower()
-
-indexes = ipc.get_indexes('localhost', 'ipc', 'mysql', 'mysql')
-found = []
-
-for index in indexes:
-    #print 'Trying '+index.word
-    word = index.word.lower()
-    count = abstract.count(word)
-    if not len(word):
-        print "0-WORD!"
+    if page.namespace != 0:
+        print "- skipped template: "+page.page_title
         continue
-    if count:
-        print 'Found index id: ' + str(index.id) + ' ' + str(count) + ' times.'
-        found.append([index, count])
 
-print 'Page will be set with categories:'
-for f in found:
-    print str(f[1]) + ' / ' + f[0].code + ' ' + f[0].category
-    print ("{{#subobject:IPCT categories statistics"
-           "|category = " + f[0].code + '. ' + f[0].category +
-           "|occurencies = " + f[1]+
-           "}}")
+    print "\n\n==Working with page: "+page.page_title+'=='
 
+    pageText = page.edit()
+    parsed = mwp.parse(pageText)
+    template = parsed.filter_templates()[0]
+
+    #Abstract
+    abstract = template.get('Short_description')
+    if abstract is None:
+        print "[!] No abstract field, skip."
+        continue
+    abstract = abstract.value.lower()
+
+    indexes = ipc.get_indexes('localhost', 'ipc', 'mysql', 'mysql')
+    found = []
+
+    for index in indexes:
+        #print 'Trying '+index.word
+        word = index.word.lower()
+        count = abstract.count(word)
+        if not len(word):
+            print "0-WORD!"
+            continue
+        if count:
+            print 'Found index id: ' + str(index.id) + ' = ' + index.word + ' ' + str(count) + ' times.'
+            found.append([index, count])
+
+    print 'Page will be set with categories:'
+    for f in found:
+        print str(f[1]) + ' / ' + f[0].code + ' ' + f[0].category
+        print ("{{#subobject:IPCT categories statistics" +
+               "|category = " + f[0].code + '. ' + f[0].category +
+               "|occurencies = " + str(f[1]) +
+               "|parentPage = " + page.page_title +
+               "}}")
+
+sys.exit()
 
 
