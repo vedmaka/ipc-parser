@@ -1,8 +1,10 @@
-__author__ = 'vedmaka'
-#-*- coding: UTF-8 -*-
-
+__author__ = 'ganqqwerty'
+import wikipedia as pywikibot
+import config
 import xml.etree.ElementTree as et
 from ipc import IpcEntry
+import wikipedia as pywikibot
+import config as config
 
 #we need to remove these tags from xml text:
 #<img src="fig[0-9]?[0-9]?.gif"\/>
@@ -53,6 +55,7 @@ for levelOneItem in root:
                     item4.children.append(item5)
     entries.append(item)
 
+
 print "Done!"
 
 print [x.title for x in entries]
@@ -60,3 +63,25 @@ print [x.title for x in entries[0].children]
 print [x.title for x in entries[0].children[0].children]
 print [x.title for x in entries[0].children[0].children[0].children]
 print [x.title for x in entries[0].children[0].children[0].children[0].children]
+
+
+def createCategory(name, parent):
+    category = pywikibot.Page(pywikibot.getSite(), name)
+    if not parent:
+        category.put("[[Category:IPCT topics]]")
+    else:
+        category.put("[[Category:"+parent+"]]")
+
+def recursiveCreateCategories(category, parentName):
+    if not category.childen:
+        createCategory(category.title, parentName)
+    else:
+        createCategory(category.title, parentName)
+        for i in category.children:
+            recursiveCreateCategories(i, category.title)
+
+root = pywikibot.Page(pywikibot.getSite(), "Category:IPCT topics")
+root.put("This is core category for all topics in IPCT")
+
+[recursiveCreateCategories(x, "Category:IPCT topics") for x in entries]
+
