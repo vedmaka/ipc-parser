@@ -1,62 +1,32 @@
 __author__ = 'ganqqwerty'
+#-*- coding: UTF-8 -*-
 import wikipedia as pywikibot
 import config
 import xml.etree.ElementTree as et
 from ipc import IpcEntry
 import wikipedia as pywikibot
 import config as config
+import sys
+import mwclient
+import mwparserfromhell as mwp
+from ipc import IpcParser
+from collections import Counter
+import re
 
-#we need to remove these tags from xml text:
-#<img src="fig[0-9]?[0-9]?.gif"\/>
-#<rlinkt/>
-#<sub>
-#</sub>
-#<emdash/>
-#<ge/>
+ipc = IpcParser()
+entries = ipc.parse('ipcr.xml')
+ipc.build_indexes('localhost', 'ipc', 'mysql', 'mysql')
 
-tree = et.parse('ipcr_test.xml')
-'''@type root: Element'''
-root = tree.getroot().find('revisionPeriod').find('ipcEdition').find('en').find('staticIpc')
+wf = mwclient.Site('en.wikioffuture.org')
+page = wf.Pages['Agriculture and Empire in the High-Altitude Atacama Desert']
 
-#Parse xml to entries
-entries = []
-#LEVEL 1 items
-for levelOneItem in root:
-    item = IpcEntry(levelOneItem)
-    levelTwo = levelOneItem.findall("./ipcEntry")
-    #LEVEL 2 items
-    for levelTwoItem in levelTwo:
-        if levelTwoItem.attrib.get('kind', 0) == 't':
-            #aAttrib = t, this is text
-            #skipping it
-            pass
-        else:
-            #Attrib = c, this is LEVEL2 items
-            #Create item for level 2
-            item2 = IpcEntry(levelTwoItem)
-            item2.parentElement = item
-            item.children.append(item2)
-            #LEVEL 3 items
-            levelThree = levelTwoItem.findall('./ipcEntry[@kind="u"]')
-            for levelThreeItem in levelThree:
-                item3 = IpcEntry(levelThreeItem)
-                item3.parentElement = item2
-                item2.children.append(item3)
-                #LEVEL 4 items: indexes (single)
-                levelFour = levelThreeItem.find('./ipcEntry[@kind="i"]')
-                item4 = IpcEntry(levelFour)
-                item4.parentElement = item3
-                item3.children.append(item4)
-                #LEVEL 5 items
-                levelFive = levelThreeItem.findall('./ipcEntry[@kind="m"]')
-                for levelFiveItem in levelFive:
-                    item5 = IpcEntry(levelFiveItem)
-                    item5.parentElement = item3
-                    item4.children.append(item5)
-    entries.append(item)
+pageText = page.edit()
+parsed = mwp.parse(pageText)
+template = parsed.filter_templates()[0]
 
 
 print "Done!"
+abstract = template.get('Abstract').value.lower()
 
 print [x.title for x in entries]
 print [x.title for x in entries[0].children]
@@ -85,3 +55,20 @@ root.put("This is core category for all topics in IPCT")
 
 [recursiveCreateCategories(x, "Category:IPCT topics") for x in entries]
 
+indexes = ipc.get_indexes('localhost', 'ipc', 'mysql', 'mysql')
+found = []
+
+for index in indexes:
+    #print 'Trying '+index.word
+    word = index.word.lower()
+    count = abstract.count(word)
+    if not len(word):
+        print "0-WORD!"
+        continue
+    if count:
+        print 'Found index id: '+str(index.id)+' '+str(count)+' times.'
+        found.append([index, count])
+
+print 'Page will be set with categories:'
+for f in found:
+    print str(f[1])+' / '+f[0].code + ' ' + f[0].category
