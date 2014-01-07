@@ -23,7 +23,6 @@ def createCategory(name, parent):
 
 def recursiveCreateCategories(category, parentName):
     """
-
     :type category: IpcEntry
     """
     if category.kind=="i" or \
@@ -32,9 +31,9 @@ def recursiveCreateCategories(category, parentName):
         return
 
     if not category.children:
-        createCategory("Category:"+category.symbol + ". " + category.title, parentName)
+        createCategory("Category:"+category.symbol + ". " + category.title, ". " + parentName)
     else:
-        createCategory("Category:"+category.symbol + ". " + category.title, parentName)
+        createCategory("Category:"+category.symbol + ". " + category.title, ". " + parentName)
         for i in category.children:
             recursiveCreateCategories(i, category.title)
 
