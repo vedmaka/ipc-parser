@@ -36,14 +36,21 @@ def recursiveCreateCategories(category, parentName):
 
 #PHASE 1 - BUILDING CATEGORY PAGES
 ipc = IpcParser()
-#entries = ipc.parse('ipcr.xml')
-# root = pywikibot.Page(pywikibot.getSite(), "Category:IPCT topics")
-# root.put("This is core category for all topics in IPCT")
-# [recursiveCreateCategories(x, "Category:IPCT topics") for x in entries]
+entries = ipc.parse('ipcr.xml')
+#root = pywikibot.Page(pywikibot.getSite(), "Category:IPCT topics")
+#root.put("This is core category for all topics in IPCT")
+#[recursiveCreateCategories(x, "Category:IPCT topics") for x in entries]
 
 #
 #PHASE 2 BUILDING INDEXES and
 #ipc.build_indexes('localhost', 'ipc', 'mysql', 'mysql')
+
+for ent in entries:
+    if ent.kind == "m":
+        print ent.symbol +'. '+ent.title
+
+sys.exit()
+
 wf = mwclient.Site('dokuwiki.wikivote.ru', '/')
 
 # PHASE 3 ADDING CATEGORIES TO WIKIPAGE #Category: EU Awards

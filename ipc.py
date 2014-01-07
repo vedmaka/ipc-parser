@@ -132,15 +132,15 @@ COLLATE utf8_general_ci;
                             "code": entry4.symbol,
                             "category": entry4.title[:235]
                             })
-                        '''#level 5 wtfwtf
+                        #level 5 wtfwtf
                         for entry5 in entry4.children:
                             for titlePart in entry5.titleParts:
                                 db.insert('ipc_indexes', {
                                 "level": 5,
                                 "word": titlePart[:255],
                                 "code": entry5.symbol,
-                                "category": entry5.title[:512]
-                                })'''
+                                "category": entry5.title[:235]
+                                })
         db.conn.commit()
         db.conn.close()
         return True
