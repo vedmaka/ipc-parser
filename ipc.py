@@ -218,4 +218,7 @@ class IpcEntry:
                     self.titleParts.append(v)
 
             if len(self.titleParts):
-                self.title = ';'.join(self.titleParts)
+                self.title = '; '.join(self.titleParts)
+                self.title = self.title[:235]
+
+
