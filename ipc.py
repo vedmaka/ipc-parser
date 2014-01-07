@@ -132,7 +132,7 @@ COLLATE utf8_general_ci;
                             "code": entry4.symbol,
                             "category": entry4.title[:512]
                             })
-                        '''#level 5
+                        '''#level 5 wtfwtf
                         for entry5 in entry4.children:
                             for titlePart in entry5.titleParts:
                                 db.insert('ipc_indexes', {
