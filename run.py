@@ -12,11 +12,14 @@ import mwparserfromhell as mwp
 from ipc import IpcParser
 
 def createCategory(name, parent):
+    additionalText = "This category represents " + \
+                     "[http://web2.wipo.int/ipcpub/#refresh=page&notion=scheme&version=20100101&symbol=" \
+                     + name + " " + name + "] topic of International Patent Classification (IPC). \n"
     category = pywikibot.Page(pywikibot.getSite(), name)
     if not parent:
-        category.put("[[Category:IPCT topics]]")
+        category.put(additionalText + "[[Category:IPC topics]]")
     else:
-        category.put("[[Category:" + parent + "]]")
+        category.put(additionalText + "[[Category:" + parent + "]]")
 
 def recursiveCreateCategories(category, parentName):
     """
