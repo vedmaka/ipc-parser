@@ -77,7 +77,7 @@ for page in wf.Categories['EU Awards']:
 
     print "Working with page: "+page.page_title
 
-    #page = wf.Pages['Deterministic Forecasting of Rogue Waves in the Ocean']
+    page = wf.Pages['Investigation of a Novel Dew Point Cooling Heat and Mass Exchanger for Air Conditioning of Buildings in Europe']
 
     pageText = page.edit()
 
@@ -158,8 +158,7 @@ for page in wf.Categories['EU Awards']:
 
         #print str(occurencies) + '/' + catName
 
-        subobject = ("\n\n{{#subobject:IPCT categories statistics" +
-               "|category = " + catName +
+        subobject = ("\n\n{{#subobject:|category = " + catName +
                "|occurencies = " + str(occurencies) +
                "|parentPage = " + page.page_title +
                "}}\n")
@@ -168,14 +167,14 @@ for page in wf.Categories['EU Awards']:
     for cc in arCats:
         editText += "\n[[Category:"+cc+"]]"
     if mLeader:
-        editText += "\n[[Category leader::"+mLeader+"]]"
+        editText += "\n[[Category leader::"+mLeader+"| ]]"
 
     editText += "\n<!-- ___________IPC MARKER END_________ -->\n"
 
     #print editText
     page.text = pageText + editText
     page.save()
-    #sys.exit()
+    sys.exit()
 
 sys.exit()
 
