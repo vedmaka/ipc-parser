@@ -1,3 +1,5 @@
+import re
+
 __author__ = 'ganqqwerty'
 #-*- coding: UTF-8 -*-
 import wikipedia as pywikibot
@@ -12,9 +14,12 @@ import mwparserfromhell as mwp
 from ipc import IpcParser
 
 def createCategory(name, parent):
+    symbol = name[0:name.find('.')]
     additionalText = "This category represents " + \
                      "[http://web2.wipo.int/ipcpub/#refresh=page&notion=scheme&version=20100101&symbol=" \
-                     + name.replace('Category:', '').replace('.', '') + " " + name.replace('Category:', '').replace('.', '') + "] topic of International Patent Classification (IPC). \n"
+                     + symbol \
+                     + " " + name.replace('Category:', '') \
+                     + "] topic of International Patent Classification (IPC). \n"
     category = pywikibot.Page(pywikibot.getSite(), name)
     if not parent:
         category.put(additionalText + "[[Category:IPC topics]]")
@@ -80,7 +85,11 @@ for page in wf.Categories['EU Awards']:
 
     if '___________IPC MARKER START___________' in pageText:
         print "[!WARNING!] This page already marked"
+        pageText = re.sub('/<!\-\- ___________IPC MARKER START___________ \-\->(.*)<!\-\- ___________IPC MARKER END_________ \-\->/gsm', '', pageText)
+        sys.exit()
         continue
+
+    sys.exit()
 
     parsed = mwp.parse(pageText)
     parsedTemplates = parsed.filter_templates()
