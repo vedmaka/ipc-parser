@@ -137,7 +137,7 @@ COLLATE utf8_general_ci;
                             "level": 5 if entry4.kind == "m" else 4,
                             "word": titlePart[:255],
                             "code": entry4.symbol,
-                            "category": entry4.title[:235]
+                            "category": entry4.title[:235] if entry4.kind == "m" else entry3.title[:235]
                             })
                         #level 5 wtfwtf
                         '''for entry5 in entry4.children:
