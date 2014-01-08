@@ -1,4 +1,5 @@
 from simplemysql.simplemysql import SimpleMysql
+import sys
 
 __author__ = 'vedmaka'
 #-*- coding: UTF-8 -*-
@@ -63,7 +64,7 @@ class IpcParser:
                         for levelFiveItem in levelFive:
                             item5 = IpcEntry(levelFiveItem)
                             item5.parentElement = item3
-                            item4.children.append(item5)
+                            item3.children.append(item5)
             self.entries.append(item)
         return self.entries
 
@@ -108,6 +109,8 @@ COLLATE utf8_general_ci;
             #Skip level 1
             for entry in rootItem.children:
                 for titlePart in entry.titleParts:
+                    if not len(titlePart.replace("\n", "").replace(u'\xa0', u'')):
+                        continue
                     db.insert('ipc_indexes', {
                         "level": 2,
                         "word": titlePart[:255],
@@ -117,6 +120,8 @@ COLLATE utf8_general_ci;
                 #level 3
                 for entry3 in entry.children:
                     for titlePart in entry3.titleParts:
+                        if not len(titlePart.replace("\n", "").replace(u'\xa0', u'')):
+                            continue
                         db.insert('ipc_indexes', {
                         "level": 3,
                         "word": titlePart[:255],
@@ -126,21 +131,25 @@ COLLATE utf8_general_ci;
                     #level 4
                     for entry4 in entry3.children:
                         for titlePart in entry4.titleParts:
+                            if not len(titlePart.replace("\n", "").replace(u'\xa0', u'')):
+                                continue
                             db.insert('ipc_indexes', {
-                            "level": 4,
+                            "level": 5 if entry4.kind == "m" else 4,
                             "word": titlePart[:255],
                             "code": entry4.symbol,
                             "category": entry4.title[:235]
                             })
                         #level 5 wtfwtf
-                        for entry5 in entry4.children:
+                        '''for entry5 in entry4.children:
                             for titlePart in entry5.titleParts:
+                                if not len(titlePart.replace("\n","").replace('\xa0', '')):
+                                    continue
                                 db.insert('ipc_indexes', {
                                 "level": 5,
                                 "word": titlePart[:255],
                                 "code": entry5.symbol,
                                 "category": entry5.title[:235]
-                                })
+                                })'''
         db.conn.commit()
         db.conn.close()
         return True
@@ -159,6 +168,12 @@ COLLATE utf8_general_ci;
             res = db.getAll('ipc_indexes', '*', ("level=%s", [level]))
 
         ind = []
+
+        if res is None:
+            print "No indexes! at level " +str(level)
+            sys.exit()
+            return ind
+
         for r in res:
             item = IpcIndex()
             item.id = r.id
@@ -221,4 +236,62 @@ class IpcEntry:
                 self.title = '; '.join(self.titleParts)
                 self.title = self.title[:235]
 
+def replace_chars(stri):
+    # remove annoying characters
+    chars = {
+        '\xc2\x82' : '',        # High code comma
+        '\xc2\x84' : '',       # High code double comma
+        '\xc2\x85' : '',      # Tripple dot
+        '\xc2\x88' : '',        # High carat
+        '\xc2\x91' : '',     # Forward single quote
+        '\xc2\x92' : '',     # Reverse single quote
+        '\xc2\x93' : '',     # Forward double quote
+        '\xc2\x94' : '',     # Reverse double quote
+        '\xc2\x95' : '',
+        '\xc2\x96' : '',        # High hyphen
+        '\xc2\x97' : '',       # Double hyphen
+        '\xc2\x99' : '',
+        '\xc2\xa0' : ' ',
+        '\xc2\xa6' : '',        # Split vertical bar
+        '\xc2\xab' : '',       # Double less than
+        '\xc2\xbb' : '',       # Double greater than
+        '\xc2\xbc' : '',      # one quarter
+        '\xc2\xbd' : '',      # one half
+        '\xc2\xbe' : '',      # three quarters
+        '\xca\xbf' : '',     # c-single quote
+        '\xcc\xa8' : '',         # modifier - under curve
+        '\xcc\xb1' : '',          # modifier - under line
+        '\xa0' : ''          # modifier - under line
+    }
+    return re.sub('(' + '|'.join(chars.keys()) + ')', replace_chars, stri)
 
+
+def replace_chars2(match):
+    # remove annoying characters
+    chars = {
+        '\xc2\x82' : '',        # High code comma
+        '\xc2\x84' : '',       # High code double comma
+        '\xc2\x85' : '',      # Tripple dot
+        '\xc2\x88' : '',        # High carat
+        '\xc2\x91' : '',     # Forward single quote
+        '\xc2\x92' : '',     # Reverse single quote
+        '\xc2\x93' : '',     # Forward double quote
+        '\xc2\x94' : '',     # Reverse double quote
+        '\xc2\x95' : ' ',
+        '\xc2\x96' : '',        # High hyphen
+        '\xc2\x97' : '',       # Double hyphen
+        '\xc2\x99' : ' ',
+        '\xc2\xa0' : ' ',
+        '\xc2\xa6' : '',        # Split vertical bar
+        '\xc2\xab' : '',       # Double less than
+        '\xc2\xbb' : '',       # Double greater than
+        '\xc2\xbc' : '',      # one quarter
+        '\xc2\xbd' : '',      # one half
+        '\xc2\xbe' : '',      # three quarters
+        '\xca\xbf' : '',     # c-single quote
+        '\xcc\xa8' : '',         # modifier - under curve
+        '\xcc\xb1' : '',          # modifier - under line
+        '\xa0' : ''          # modifier - under line
+    }
+    char = match.group(0)
+    return chars[char]
