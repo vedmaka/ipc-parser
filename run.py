@@ -12,9 +12,12 @@ import mwparserfromhell as mwp
 from ipc import IpcParser
 
 def createCategory(name, parent):
+    symbol = name[0:name.find('.')]
     additionalText = "This category represents " + \
                      "[http://web2.wipo.int/ipcpub/#refresh=page&notion=scheme&version=20100101&symbol=" \
-                     + name.replace('Category:', '').replace('.', '') + " " + name.replace('Category:', '').replace('.', '') + "] topic of International Patent Classification (IPC). \n"
+                     + symbol \
+                     + " " + name.replace('Category:', '').replace('.', '') \
+                     + "] topic of International Patent Classification (IPC). \n"
     category = pywikibot.Page(pywikibot.getSite(), name)
     if not parent:
         category.put(additionalText + "[[Category:IPC topics]]")
