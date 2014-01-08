@@ -175,6 +175,8 @@ COLLATE utf8_general_ci;
             return ind
 
         for r in res:
+            if r.level == 4:
+                continue
             item = IpcIndex()
             item.id = r.id
             item.level = r.level
