@@ -155,8 +155,7 @@ for page in wf.Categories['EU Awards']:
 
         #print str(occurencies) + '/' + catName
 
-        subobject = ("\n\n{{#subobject:IPCT categories statistics" +
-               "|category = " + catName +
+        subobject = ("\n\n{{#subobject:|category = " + catName +
                "|occurencies = " + str(occurencies) +
                "|parentPage = " + page.page_title +
                "}}\n")
