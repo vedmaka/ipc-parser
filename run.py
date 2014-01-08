@@ -1,7 +1,8 @@
-import re
-
 __author__ = 'ganqqwerty'
 #-*- coding: UTF-8 -*-
+
+import re
+
 import wikipedia as pywikibot
 import config
 import xml.etree.ElementTree as et
@@ -18,7 +19,7 @@ def createCategory(name, parent):
     additionalText = "This category represents " + \
                      "[http://web2.wipo.int/ipcpub/#refresh=page&notion=scheme&version=20100101&symbol=" \
                      + symbol \
-                     + " " + name.replace('Category:', '') \
+                     + " " + name.replace('Category:', '').replace('.', '') \
                      + "] topic of International Patent Classification (IPC). \n"
     category = pywikibot.Page(pywikibot.getSite(), name)
     if not parent:
