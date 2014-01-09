@@ -49,12 +49,12 @@ def recursiveCreateCategories(category, parentName):
 
 #PHASE 1 - BUILDING CATEGORY PAGES
 ipc = IpcParser()
-#entries = ipc.parse('ipcr.xml')
-#root = pywikibot.Page(pywikibot.getSite(), "Category:IPC topics")
-#root.put("This is core category for all topics in IPC")
-#[recursiveCreateCategories(x, "IPC topics") for x in entries]
+entries = ipc.parse('ipcr.xml')
+root = pywikibot.Page(pywikibot.getSite(), "Category:IPC topics")
+root.put("This is core category for all topics in IPC")
+[recursiveCreateCategories(x, "IPC topics") for x in entries]
 
-#sys.exit()
+sys.exit()
 
 #
 #PHASE 2 BUILDING INDEXES and
@@ -66,7 +66,7 @@ ipc = IpcParser()
 
 #sys.exit()
 
-wf = mwclient.Site('dokuwiki.wikivote.ru', '/')
+wf = mwclient.Site('en.wikioffuture.org')
 wf.login('botik', 'q1w2e3r4')
 
 indexes = ipc.get_indexes('localhost', 'ipc', 'mysql', 'mysql')
@@ -113,11 +113,11 @@ for page in wf.Categories['EU Awards']:
 
     #Abstract
 
-    if not template.has('Short_description'):
+    if not template.has('Abstract'):
         print "No field in template!"
         continue
 
-    abstract = template.get('Short_description')
+    abstract = template.get('Abstract')
     if abstract is None:
         print "[!] No abstract field, skip."
         continue
@@ -182,8 +182,8 @@ for page in wf.Categories['EU Awards']:
 
     #print editText
     page.text = pageText + editText
-    page.save()
-    sys.exit()
+    #page.save()
+    #sys.exit()
 
 sys.exit()
 
