@@ -1,5 +1,8 @@
 __author__ = 'ganqqwerty'
 #-*- coding: UTF-8 -*-
+
+import re
+
 import wikipedia as pywikibot
 import config
 import xml.etree.ElementTree as et
@@ -82,8 +85,14 @@ for page in wf.Categories['EU Awards']:
     pageText = page.edit()
 
     if '___________IPC MARKER START___________' in pageText:
-        print "[!WARNING!] This page already marked"
-        continue
+        print "[!WARNING!] This page already marked, marker replaced"
+        pageText = pageText[0:pageText.find('\n<!-- ___________IPC MARKER START___________ -->\n')] + pageText[pageText.find('<!-- ___________IPC MARKER END_________ -->')+43:]
+        #pageText = re.sub('/<!\-\- ___________IPC MARKER START___________ \-\->(.*)<!\-\- ___________IPC MARKER END_________ \-\->', '', pageText, 0, re.DOTALL + re.MULTILINE)
+        #print pageText
+        #sys.exit()
+        #continue
+
+    #sys.exit()
 
     parsed = mwp.parse(pageText)
     parsedTemplates = parsed.filter_templates()
