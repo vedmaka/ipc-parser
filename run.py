@@ -54,11 +54,9 @@ root = pywikibot.Page(pywikibot.getSite(), "Category:IPC topics")
 root.put("This is core category for all topics in IPC")
 [recursiveCreateCategories(x, "IPC topics") for x in entries]
 
-sys.exit()
-
 #
 #PHASE 2 BUILDING INDEXES and
-#ipc.build_indexes('localhost', 'ipc', 'mysql', 'mysql')
+ipc.build_indexes('localhost', 'ipc', 'mysql', 'mysql')
 
 #for ent in entries:
 #    if ent.kind == "m":
@@ -72,7 +70,7 @@ wf.login('botik', 'q1w2e3r4')
 indexes = ipc.get_indexes('localhost', 'ipc', 'mysql', 'mysql')
 
 # PHASE 3 ADDING CATEGORIES TO WIKIPAGE #Category: EU Awards
-for page in wf.Categories['EU Awards']:
+for page in wf.Categories['Awards']:
 
     if page.namespace != 0:
         print "- skipped template: "+page.page_title
@@ -103,7 +101,7 @@ for page in wf.Categories['EU Awards']:
 
     template = None
     for temp in parsedTemplates:
-        if temp.name.matches("EU Awards"):
+        if temp.name.matches("Award"):
             template = temp
             break
 
